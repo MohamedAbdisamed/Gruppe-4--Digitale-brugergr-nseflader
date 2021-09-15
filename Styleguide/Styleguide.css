@@ -1,6 +1,7 @@
 .header { grid-area: header; }
 .menu { grid-area: menu; }
-.main{ grid-area: main; }
+.farver{ grid-area: farver; }
+.ikoner{ grid-area: ikoner; }
 .right{ grid-area: right; }
 .footer { grid-area: footer; }
 
@@ -8,7 +9,8 @@
   display: grid;
   grid-template-areas:
     'menu header header header header header'
-    'menu main main main right right'
+    'menu farver farver farver right right'
+    'menu ikoner ikoner ikoner right right'
     'menu footer footer footer footer footer';
   grid-gap: 3px;
   background-color: #00454E;
@@ -22,7 +24,7 @@
   font-size: 30px;
 }
 
-.main-grid {
+.farve-grid {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 3px;
