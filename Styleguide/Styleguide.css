@@ -138,6 +138,13 @@
   font-family: 'Proxima Nova Alt Rg',sans-serif;
 }
 
+.font-størrelse {
+  border: 3px solid black;
+  paddng: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 .header {
   background-color: #00454e;
   color: #ffffff;
