@@ -9,7 +9,7 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'menu header header header header'
+    'header header header header header'
     'menu farver farver farver right'
     'menu ikoner ikoner ikoner right'
     'menu fonter fonter fonter right'
