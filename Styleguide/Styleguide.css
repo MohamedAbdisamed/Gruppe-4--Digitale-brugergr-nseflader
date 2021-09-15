@@ -2,6 +2,7 @@
 .menu { grid-area: menu; }
 .farver{ grid-area: farver; }
 .ikoner{ grid-area: ikoner; }
+.fonter{ frid-area: fonter}
 .right{ grid-area: right; }
 .footer { grid-area: footer; }
 
@@ -11,6 +12,7 @@
     'menu header header header header header'
     'menu farver farver farver right right'
     'menu ikoner ikoner ikoner right right'
+    'menu fonter fonter fonter right right'
     'menu footer footer footer footer footer';
   grid-gap: 3px;
   background-color: #00454E;
@@ -108,6 +110,13 @@
   padding: 3px;
 }
 
+.font-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 3px;
+  background-color: #00454e;
+  color: #ffffff;
+}
 * h3 {
   text-align: left;
 }
