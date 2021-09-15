@@ -8,12 +8,13 @@
 
 .grid-container {
   display: grid;
+  grid-template-columns: 250px auto auto auto 250px;
   grid-template-areas:
     'header header header header header'
-    'menu farver farver farver right'
-    'menu ikoner ikoner ikoner right'
-    'menu fonter fonter fonter right'
-    'menu footer footer footer footer';
+    'menu main main main right'
+    'menu main main main right'
+    'menu main main main right'
+    'footer footer footer footer footer';
   grid-gap: 3px;
   padding: 3px;
 }
@@ -110,7 +111,7 @@
 
 .font-grid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   padding: 3px;
 }
 
@@ -141,6 +142,7 @@
   background-color: #00454e;
   color: #ffffff;
 }
+
 .menu {
   background-color: #ffffff;
 }
@@ -148,8 +150,18 @@
 .right {
   background-color: #ffffff;
 }
+
 .main {
   background-color: #cae4e3;
+}
+
+* a {
+  color: black;
+  text-decoration: none;
+}
+
+* h2 {
+  text-align: left;
 }
 
 * h3 {
