@@ -114,8 +114,13 @@
   display: grid;
   grid-template-columns: auto auto;
   padding: 3px;
-  background-color: #00454e;
-  color: #ffffff;
+}
+
+.font {
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 * h3 {
   text-align: left;
