@@ -22,7 +22,7 @@
   font-size: 30px;
 }
 
-.color-grid {
+.main-grid {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 3px;
