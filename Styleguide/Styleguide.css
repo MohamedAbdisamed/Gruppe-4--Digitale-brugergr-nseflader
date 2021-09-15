@@ -9,18 +9,16 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'menu header header header header header'
-    'menu farver farver farver right right'
-    'menu ikoner ikoner ikoner right right'
-    'menu fonter fonter fonter right right'
-    'menu footer footer footer footer footer';
+    'menu header header header header'
+    'menu farver farver farver right'
+    'menu ikoner ikoner ikoner right'
+    'menu fonter fonter fonter right'
+    'menu footer footer footer footer';
   grid-gap: 3px;
-  background-color: #00454E;
   padding: 3px;
 }
 
 .grid-container > div {
-  background-color: #CAE4E3;
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
@@ -137,6 +135,21 @@
   font-size: 30px;
   text-align: center;
   font-family: 'Proxima Nova Alt Rg',sans-serif;
+}
+
+.header {
+  background-color: #00454e;
+  color: #ffffff;
+}
+.menu {
+  background-color: #ffffff;
+}
+
+.right {
+  background-color: #ffffff;
+}
+.main {
+  background-color: #cae4e3;
 }
 
 * h3 {
