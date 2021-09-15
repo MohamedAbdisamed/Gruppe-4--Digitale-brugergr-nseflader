@@ -60,6 +60,7 @@
   font-size: 30px;
   text-align: center;
 }
+
 .color-5 {
   background-color: #d2be48;
   border: 3px solid black;
@@ -98,4 +99,8 @@
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+* h3 {
+  text-align: left;
 }
