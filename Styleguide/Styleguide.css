@@ -122,6 +122,23 @@
   font-size: 30px;
   text-align: center;
 }
+
+.font-1 {
+  border: 3px solid black;
+  paddng: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Proxima Nova Alt Bold',sans-serif;
+}
+
+.font-2 {
+  border: 3px solid black;
+  paddng: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Proxima Nova Alt Rg',sans-serif;
+}
+
 * h3 {
   text-align: left;
 }
