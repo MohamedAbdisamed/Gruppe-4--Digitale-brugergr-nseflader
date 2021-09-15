@@ -25,13 +25,75 @@
 .color-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3;
   padding: 10px;
 }
 
 .color-1 {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: #00454e;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.color-2 {
+  background-color: #cae4e3;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.color-3 {
+  background-color: #defffe;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.color-4 {
+  background-color: #6a6024;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.color-5 {
+  background-color: #d2be48;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.color-6 {
+  background-color: #fbe355;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.color-7 {
+  background-color: #9b3c7d;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.color-8 {
+  background-color: #f1c9c0;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.color-9 {
+  background-color: #ffffff;
+  border: 3px solid black;
   padding: 20px;
   font-size: 30px;
   text-align: center;
