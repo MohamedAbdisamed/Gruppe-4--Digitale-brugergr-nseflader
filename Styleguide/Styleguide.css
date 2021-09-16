@@ -5,7 +5,7 @@
 .fonter{ frid-area: fonter}
 .right{ grid-area: right; }
 .footer { grid-area: footer; }
-
+/*Sidens overordnede grid*/
 .grid-container {
   display: grid;
   grid-template-columns: 250px auto auto auto 250px;
@@ -24,91 +24,102 @@
   padding: 20px 0;
   font-size: 30px;
 }
-
+/*farver*/
 .farve-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 3px;
+  paddong: 3px;
 }
 
 .color-1 {
   background-color: #00454e;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
 .color-2 {
   background-color: #cae4e3;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
 .color-3 {
   background-color: #defffe;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
 .color-4 {
   background-color: #6a6024;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
 .color-5 {
   background-color: #d2be48;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
 .color-6 {
   background-color: #fbe355;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
 .color-7 {
   background-color: #9b3c7d;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
 .color-8 {
   background-color: #f1c9c0;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
 .color-9 {
   background-color: #ffffff;
-  border: 3px solid black;
+  border: 5px solid black;
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   text-align: center;
 }
 
+/*Ikoner*/
 .ikon-grid {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   padding: 3px;
 }
 
+/*Typografi*/
 .font-grid {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -145,6 +156,7 @@
   text-align: center;
 }
 
+/*Baggrund for de forskellige områder*/
 .header {
   background-color: #00454e;
   color: #ffffff;
@@ -162,6 +174,7 @@
   background-color: #cae4e3;
 }
 
+/*Tekst retteler/Overruling af tekst standarder*/
 * a {
   color: black;
   text-decoration: none;
