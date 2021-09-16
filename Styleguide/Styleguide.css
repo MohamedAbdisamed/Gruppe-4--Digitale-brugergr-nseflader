@@ -144,7 +144,15 @@
 .font-2 {
   border: 3px solid black;
   paddng: 20px;
-  font-size: 30px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Proxima Nova Alt Bold',sans-serif;
+}
+
+.font-6 {
+  border: 3px solid black;
+  paddng: 20px;
+  font-size: 12px;
   text-align: center;
   font-family: 'Proxima Nova Alt Rg',sans-serif;
 }
