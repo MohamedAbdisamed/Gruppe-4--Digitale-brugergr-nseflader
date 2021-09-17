@@ -34,6 +34,7 @@
 .color-1 {
   background-color: #00454e;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -43,6 +44,7 @@
 .color-2 {
   background-color: #cae4e3;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -52,6 +54,7 @@
 .color-3 {
   background-color: #defffe;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -61,6 +64,7 @@
 .color-4 {
   background-color: #6a6024;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -70,6 +74,7 @@
 .color-5 {
   background-color: #d2be48;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -79,6 +84,7 @@
 .color-6 {
   background-color: #fbe355;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -88,6 +94,7 @@
 .color-7 {
   background-color: #9b3c7d;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -97,6 +104,7 @@
 .color-8 {
   background-color: #f1c9c0;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -106,6 +114,7 @@
 .color-9 {
   background-color: #ffffff;
   border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 5px;
   font-size: 30px;
@@ -128,6 +137,8 @@
 
 .font {
   border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -135,6 +146,8 @@
 
 .font-1 {
   border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
   paddng: 20px;
   font-size: 30px;
   text-align: center;
@@ -143,6 +156,8 @@
 
 .font-2 {
   border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
   paddng: 20px;
   font-size: 25px;
   text-align: center;
@@ -151,6 +166,8 @@
 
 .font-6 {
   border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
   paddng: 20px;
   font-size: 12px;
   text-align: center;
@@ -159,6 +176,8 @@
 
 .font-størrelse {
   border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
   paddng: 20px;
   font-size: 30px;
   text-align: center;
