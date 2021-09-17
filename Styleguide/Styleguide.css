@@ -193,11 +193,12 @@
 }
 
 .knap-1{
-  border: 3px solid black;
+  border: 3px solid #00454e;
   border-radius: 10px;
-  margin: 5px; 
+  margin: 5px;
   padding: 5px;
-  background: white;
+  background-color: #cae4e3;
+  color: #00454e;
   max-width: 20%;
 }
 
