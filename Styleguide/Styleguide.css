@@ -172,6 +172,18 @@
   background: white;
   max-width: 10%;
 }
+
+/*Klub Boks*/
+.klub-box {
+  border: 3px solid #00454e;
+  border-radius: 10px;
+  padding: 5px;
+  background-image: url("xxx.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 10%;
+}
+
 /*Baggrund for de forskellige områder*/
 .header {
   background-color: #00454e;
