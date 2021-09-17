@@ -199,7 +199,6 @@
   padding: 5px;
   background-color: #cae4e3;
   color: #00454e;
-
 }
 
 .knap-2{
@@ -209,7 +208,6 @@
   padding: 5px;
   background-color: #FBE355;
   color: #6A6024;
-
 }
 
 .knap-3{
@@ -219,18 +217,36 @@
   padding: 5px;
   background-color: #F1C9C0;
   color: #9B3C7D;
-
 }
 
-/*Klub Boks*/
+/*Bokse*/
+.bokse {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  padding: 3px;
+}
+
 .klub-box {
   border: 3px solid #00454e;
   border-radius: 10px;
+  margin: 5px;
   padding: 5px;
   background-image: url("xxx.png");
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 20%;
+  color: #00454E;
+}
+
+.UCL-box {
+  border: 3px solid #6A6024;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  background-image: url("xxx.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #6A6024;
+
 }
 
 /*Baggrund for de forskellige områder*/
