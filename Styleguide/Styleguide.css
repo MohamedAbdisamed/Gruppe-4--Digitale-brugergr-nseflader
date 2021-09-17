@@ -186,9 +186,16 @@
 }
 
 /*Knap*/
-.knap{
+.knapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 3px;
+}
+
+.knap-1{
   border: 3px solid black;
   border-radius: 10px;
+  margin: 5px; 
   padding: 5px;
   background: white;
   max-width: 20%;
