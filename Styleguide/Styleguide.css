@@ -258,10 +258,12 @@
 .menu {
   background-color: #00454e;
   color: #ffffff;
+  
 }
 
+
 .right {
-  background-color: #cae4e3;
+  background-color: #CAE4E3;
 }
 
 .main {
@@ -270,7 +272,7 @@
 
 /*Tekst retteler/Overruling af tekst standarder*/
 * a {
-  color: black;
+  color: #ffffff;
   text-decoration: none;
 }
 
