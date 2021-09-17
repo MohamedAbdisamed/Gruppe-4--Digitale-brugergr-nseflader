@@ -164,6 +164,14 @@
   text-align: center;
 }
 
+/*Knap*/
+.knap{
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background: white;
+  max-width: 10%;
+}
 /*Baggrund for de forskellige områder*/
 .header {
   background-color: #00454e;
