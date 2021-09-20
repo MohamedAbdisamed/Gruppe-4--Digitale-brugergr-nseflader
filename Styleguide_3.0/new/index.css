@@ -260,17 +260,17 @@ section::after {
     border: 3px solid #00454E;
     border-radius: 10px;
     margin: 10px;
-    paddng: 10px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
     width: 15%;
   }
 
-.font-størrelse {
+.font-size {
       border: 3px solid #00454E;
       border-radius: 10px;
       margin: 10px;
-      paddng: 10px;
+      padding: 10px;
       font-size: 30px;
       text-align: center;
       width: 15%;
@@ -280,7 +280,7 @@ section::after {
     border: 3px solid #00454E;
     border-radius: 10px;
     margin: 10px;
-    paddng: 10px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
     font-family: 'Proxima Nova Alt Bold',sans-serif;
@@ -291,7 +291,7 @@ section::after {
       border: 3px solid #00454E;
       border-radius: 10px;
       margin: 10px;
-      paddng: 10px;
+      padding: 10px;
       font-size: 30px;
       text-align: center;
       font-family: 'Proxima Nova Alt Bold',sans-serif;
@@ -302,7 +302,7 @@ section::after {
     border: 3px solid #00454E;
     border-radius: 10px;
     margin: 10px;
-    paddng: 10px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
     font-family: 'Proxima Nova Alt Rg',sans-serif;
@@ -333,7 +333,7 @@ section::after {
 }
 
 .tilmeld-knap {
-  border-color: 3px solid #6A6024;
+  border: 3px solid #6A6024;
   background-color: #FBE355;
   color: #6A6024;
   border-radius: 10px;
@@ -345,7 +345,7 @@ section::after {
   background-color: #00454E;
   bottom: 0;
   width: 50%;
-  height: 100%px;
+  height: 100%;
 }
 
 .ikon-nav a {
@@ -368,7 +368,7 @@ section::after {
   background-color: #00454E;
   top:  0;
   width: 50%;
-  height: 100%px;
+  height: 100%;
 }
 
 .header a {
