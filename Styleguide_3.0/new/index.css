@@ -198,6 +198,7 @@ section::after {
   .b1 {background-color: #CAE4E3;border: 3px solid #00454E; color: #00454E;}
   .b2 {background-color: #FBE355;border: 3px solid #6A6024; color: #6A6024;}
   .b3 {background-color: #F1C9C0; border: 3px solid #9B3C7D; color: #9B3C7D;}
+  .b4 {background-color: #00454E; border: 3px solid #00454E; color: #ffffff;}
 
 .bokse {
     display: grid;
