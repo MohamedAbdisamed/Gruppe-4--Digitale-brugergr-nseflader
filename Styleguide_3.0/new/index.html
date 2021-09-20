@@ -204,20 +204,51 @@
               <code>
                 <h4>Login form HTML</h4>
                   &lt; form id="login" action="index.html" &gt; <br>
-                  UCL Navn &lt; br &gt; &lt; input type="text" name="name" &gt; &lt; br &gt; <br>
-                  UCL Kode &lt; br &gt; &lt; input type="text" name="kode" &gt; &lt; br &gt; &lt; br &gt; <br>
-                  &lt; input type="button" onclick="myFunction()" value="Login" &gt;
+                  UCL Navn &lt; br &gt; &lt; input class="login-boks" type="text" name="name" &gt; &lt; br &gt; <br>
+                  UCL Kode &lt; br &gt; &lt; input class="login-boks" type="text" name="kode" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; input class="login-knap" type="button" onclick="myFunction()" value="Login" &gt;
                   &lt; /form &gt;
 
-                <h4>Tilmeld kode HTML</h4>
+                <h4>Tilmeld form HTML</h4>
                   &lt; form id="login" action="index.html" &gt; <br>
-                  Navn &lt; br &gt; &lt; input type="text" name="name" &gt; &lt; br &gt; <br>
-                  Studie &lt; br &gt; &lt; input type="text" name="studie" &gt; &lt; br &gt; <br>
-                  Semester &lt; br &gt; &lt; input type="text" name="sem" &gt; &lt; br &gt; &lt; br &gt; <br>
-                  &lt; input type="button" onclick="myFunction()" value="Tilmeld" &gt;
+                  Navn &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="name" &gt; &lt; br &gt; <br>
+                  Studie &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="studie" &gt; &lt; br &gt; <br>
+                  Semester &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="sem" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld" &gt;
                   &lt; /form &gt;
 
-                <h4>JS</h4>
+                <h4>Login form CSS</h4>
+                  .login-boks { <br>
+                    border: 3px solid #707070; <br>
+                    border-radius: 10px; <br>
+                    height: 30px; <br>
+                    background-color: #EAEAEA; <br>
+                    color: black; <br>
+                  } <br> <br>
+
+                  .login-knap { <br>
+                    background-color: #00454E; <br>
+                    color: #ffffff; <br>
+                    border-radius: 10px; <br>
+                    height: 30px; <br>
+                  }
+                <h4>Tilmeld ofrm CSS</h4>
+                  .tilmeld-boks { <br>
+                    border: 3px solid #00454E; <br>
+                    border-radius: 10px; <br>
+                    height: 30px; <br>
+                    background-color: #CAE4E3; <br>
+                    color: #00454E; <br>
+                  } <br> <br>
+
+                  .tilmeld-knap { <br>
+                    border-color: 3px solid #6A6024; <br>
+                    background-color: #FBE355; <br>
+                    color: #6A6024; <br>
+                    border-radius: 10px; <br>
+                    height: 30px; <br>
+                  }
+                <h4>JS til begge</h4>
                   function myFunction() { <br>
                     document.getElementById("frm1").submit(); <br>
                   } <br>
