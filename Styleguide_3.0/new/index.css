@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+* h
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -256,7 +256,7 @@ section::after {
   }
 
 .font-type {
-    border: 3px solid black;
+    border: 3px solid #00454E;
     border-radius: 10px;
     margin: 10px;
     paddng: 10px;
@@ -266,7 +266,7 @@ section::after {
   }
 
 .font-størrelse {
-      border: 3px solid black;
+      border: 3px solid #00454E;
       border-radius: 10px;
       margin: 10px;
       paddng: 10px;
@@ -276,7 +276,7 @@ section::after {
     }
 
 .font-1 {
-    border: 3px solid black;
+    border: 3px solid #00454E;
     border-radius: 10px;
     margin: 10px;
     paddng: 10px;
@@ -287,7 +287,7 @@ section::after {
   }
 
 .font-2 {
-      border: 3px solid black;
+      border: 3px solid #00454E;
       border-radius: 10px;
       margin: 10px;
       paddng: 10px;
@@ -298,7 +298,7 @@ section::after {
     }
 
 .font-3 {
-    border: 3px solid black;
+    border: 3px solid #00454E;
     border-radius: 10px;
     margin: 10px;
     paddng: 10px;
