@@ -270,7 +270,7 @@ section::after {
   overflow: hidden;
   background-color: #00454E;
   bottom: 0;
-  width: 100%;
+  width: 50%;
   height: 100%px;
 }
 
@@ -289,8 +289,32 @@ section::after {
   background-color: #CAE4E3;
 }
 
-code {
-  border: 3px solid #00454e;
+.header {
+  overflow: hidden;
+  background-color: #00454E;
+  top:  0;
+  width: 50%;
+  height: 100%px;
+}
+
+.header a {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.header h4 {
+  float: left;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
 }
 
 footer {
