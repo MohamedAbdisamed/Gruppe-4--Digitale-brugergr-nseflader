@@ -344,6 +344,14 @@ section::after {
   font-size: 20px;
 }
 
+.kode {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #00454E;
+  color: #CAE4E3;
+}
+
 footer {
   background-color: #00454E;
   padding: 10px;
