@@ -265,7 +265,9 @@ section::after {
     width: 60%;
   }
 
-
+code {
+  border: 3px solid #00454e;
+}
 
 footer {
   background-color: #00454E;
