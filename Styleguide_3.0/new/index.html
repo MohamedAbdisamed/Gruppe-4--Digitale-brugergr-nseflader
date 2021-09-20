@@ -81,12 +81,16 @@
           <h2>Bokse</h2>
           <div class="bokse">
             <div class="klub-box">
-              <h3>Titel til Klub</h3>
-              <p>Kort information om Klub</p>
+              <div class="klub-box-indhold">
+                <h3>Titel til Klub</h3>
+                <p>Kort information om Klub</p>
+              </div>
             </div>
             <div class="UCL-box">
-              <h3>Titel til UCL Møder</h3>
-              <p>Kort information om Mødet</p>
+              <div class="UCL-box-indhold">
+                <h3>Titel til UCL Møder</h3>
+                <p>Kort information om Mødet</p>
+              </div>
             </div>
           </div>
           <br>
@@ -94,14 +98,18 @@
           <code>
             <h4>Klub boks HTML:</h4>
               &lt;div class="klub-box"&gt; <br>
+              &lt;div class="klub-box-indhold"&gt; <br>
               &lt;h3&gt;Titel til Klub&lt;/h3&gt; <br>
               &lt;p&gt;Kort information om Klub&lt;/p&gt; <br>
               &lt;/div&gt;
+
             <h4>UCL boks HTML:</h4>
               &lt;div class="UCL-box"&gt; <br>
+              &lt;div class="UCL-box-indhold"&gt; <br>
               &lt;h3&gt;Titel til UCL Møder&lt;/h3&gt; <br>
               &lt;p&gt;Kort information om Mødet&lt;/p&gt; <br>
               &lt;/div&gt;
+
             <h4>Boks CSS</h4>
               .bokse { <br>
                 display: grid; <br>
@@ -117,7 +125,16 @@
                 background-image: url("xxx.png"); <br>
                 background-repeat: no-repeat; <br>
                 background-size: cover; <br>
-                color: #00454E;
+                color: #00454E; <br>
+              } <br> <br>
+              .klub-box-indhold { <br>
+                border: 3px solid #00454e; <br>
+                border-radius: 10px; <br>
+                margin: 3px; <br>
+                padding: 3px; <br>
+                background-color: #CAE4E3; <br>
+                color: #00454E; <br>
+                width: 50% <br>
               }
             <h4>UCL boks CSS</h4>
               .UCL-box {
@@ -128,8 +145,18 @@
                 background-image: url("xxx.png"); <br>
                 background-repeat: no-repeat; <br>
                 background-size: cover; <br>
-                color: #6A6024;
+                color: #6A6024; <br>
+              } <br> <br>
+              .UCL-box-indhold { <br>
+                border: 3px solid #6A6024; <br>
+                border-radius: 10px; <br>
+                margin: 3px; <br>
+                padding: 3px; <br>
+                background-color: #FBE355; <br>
+                color: #6A6024; <br>
+                width: 50% <br>
               }
+
           </code>
         </div>
         <div id="Typografi">

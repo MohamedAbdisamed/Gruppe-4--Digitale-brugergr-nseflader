@@ -184,26 +184,45 @@ section::after {
   }
 
 .klub-box {
-    border: 3px solid #00454e;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    background-image: url("xxx.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #00454E;
-  }
+  border: 3px solid #00454e;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url("../IMG/Rectangle 15.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #00454E;
+}
+
+.klub-box-indhold {
+  border: 3px solid #00454e;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 3px;
+  background-color: #CAE4E3;
+  color: #00454E;
+  width: 50%
+}
 
 .UCL-box {
+  border: 3px solid #6A6024;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url("xxx.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #6A6024;
+  }
+
+  .UCL-box-indhold {
     border: 3px solid #6A6024;
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    background-image: url("xxx.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 3px;
+    padding: 3px;
+    background-color: #FBE355;
     color: #6A6024;
-
+    width: 50%
   }
 
 .typografi {
