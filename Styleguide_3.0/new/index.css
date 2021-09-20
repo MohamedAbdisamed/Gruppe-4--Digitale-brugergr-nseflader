@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #00454E;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  background-color: #CAE4E3;
+  padding: 20px;
+  height: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+li a {
+  font-size: 40px;
+}
+
+li {
+  padding: 5%;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.farve {
+  display: flex;
+  flex-wrap: wrap;
+}
+.color-1 {
+  background-color: #00454e;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.color-2 {
+  background-color: #cae4e3;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.color-3 {
+  background-color: #defffe;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.color-4 {
+  background-color: #6a6024;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.color-5 {
+
+  background-color: #d2be48;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.color-6 {
+
+  background-color: #fbe355;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.color-7 {
+  background-color: #9b3c7d;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.color-8 {
+  background-color: #f1c9c0;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.color-9 {
+  background-color: #ffffff;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+.ikon {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+}
+
+.button {
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  .b1 {background-color: #CAE4E3;border: 3px solid #00454E; color: #00454E;}
+  .b2 {background-color: #FBE355;border: 3px solid #6A6024; color: #6A6024;}
+  .b3 {background-color: #F1C9C0; border: 3px solid #9B3C7D; color: #9B3C7D;}
+
+.bokse {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 3px;
+  }
+
+.klub-box {
+    border: 3px solid #00454e;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("xxx.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+.UCL-box {
+    border: 3px solid #6A6024;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("xxx.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #6A6024;
+
+  }
+
+.typografi {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+  }
+
+.font-type {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    paddng: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 15%;
+  }
+
+.font-størrelse {
+      border: 3px solid black;
+      border-radius: 10px;
+      margin: 10px;
+      paddng: 10px;
+      font-size: 30px;
+      text-align: center;
+      width: 15%;
+    }
+
+.font-1 {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    paddng: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Proxima Nova Alt Bold',sans-serif;
+    width: 60%;
+  }
+
+.font-2 {
+      border: 3px solid black;
+      border-radius: 10px;
+      margin: 10px;
+      paddng: 10px;
+      font-size: 30px;
+      text-align: center;
+      font-family: 'Proxima Nova Alt Bold',sans-serif;
+      width: 60%;
+    }
+
+.font-3 {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    paddng: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Proxima Nova Alt Rg',sans-serif;
+    width: 60%;
+  }
+
+
+
+footer {
+  background-color: #00454E;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
