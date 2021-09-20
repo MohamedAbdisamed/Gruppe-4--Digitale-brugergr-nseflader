@@ -309,6 +309,37 @@ section::after {
     width: 60%;
   }
 
+.login-boks {
+  border: 3px solid #707070;
+  border-radius: 10px;
+  height: 30px;
+  background-color: #EAEAEA;
+  color: black;
+}
+
+.login-knap {
+  background-color: #00454E;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.tilmeld-boks {
+  border: 3px solid #00454E;
+  border-radius: 10px;
+  height: 30px;
+  background-color: #CAE4E3;
+  color: #00454E;
+}
+
+.tilmeld-knap {
+  border-color: 3px solid #6A6024;
+  background-color: #FBE355;
+  color: #6A6024;
+  border-radius: 10px;
+  height: 30px;
+}
+
 .ikon-nav {
   overflow: hidden;
   background-color: #00454E;
