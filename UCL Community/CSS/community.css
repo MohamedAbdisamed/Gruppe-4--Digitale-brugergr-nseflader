@@ -95,6 +95,18 @@ a {
   color: #00454E;
 }
 
+.film-box{
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding: 20px;
+  background-image: url("../IMG/Klubber/film.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #00454E;
+}
+
 .tema {
   margin: auto;
   text-align: center;
