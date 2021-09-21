@@ -1,7 +1,12 @@
+body {
+  background-color: #00454E;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
 
 .header {
   overflow: hidden;
-  background-color: #00454E;
+  background-color: #FFFFFF;
   top:  0;
   width: 100%;
   height: 100%;
@@ -14,7 +19,7 @@
   text-align: center;
   padding: 12px 0;
   transition: all 0.3s ease;
-  color: white;
+  color: #343434;
 }
 
 .header h4 {
@@ -23,9 +28,10 @@
   height: 100%;
   text-align: center;
   transition: all 0.3s ease;
-  color: white;
+  color: #343434;
   font-size: 20px;
 }
+
 
 .klub-box-indhold {
   border: 3px solid #00454e;
@@ -42,7 +48,7 @@
 
 .ikon-nav {
   overflow: hidden;
-  background-color: #00454E;
+  background-color: #FFFFFF;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -55,10 +61,6 @@
   width: 20%;
   text-align: center;
   padding: 5px 0;
-  color: white;
+  color: #343434;
   font-size: 20px;
-}
-
-.active {
-  background-color: #CAE4E3;
 }
