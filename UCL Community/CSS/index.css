@@ -32,7 +32,7 @@ body {
 }
 
 
-.klub-box-indhold-1 {
+.klub-box-indhold {
   border: 3px solid #00454e;
   border-radius: 10px;
   margin: 0 auto;
@@ -54,83 +54,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #00454E;
-}
-
-.klub-box1 {
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  background-image: url("../IMG/Klubber/fitness.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #00454E;
-}
-
-.klub-box2 {
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  background-image: url("../IMG/Klubber/strik.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #00454E;
-}
-
-.klub-box3 {
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  background-image: url("../IMG/Klubber/gaming.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #00454E;
-}
-
-.klub-box4 {
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  background-image: url("../IMG/Klubber/film.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #00454E;
-}
-
-.klub-box5 {
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  background-image: url("../IMG/Klubber/badning.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #00454E;
-}
-
-.klub-box6 {
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  background-image: url("../IMG/Rectangle 15.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #00454E;
-}
-
-.klub-box-indhold {
-  margin: 0 auto;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  padding: 3px;
-  background-color: #ffffff;
-  color: #343434;
-  width: 30%;
-  text-align: center;
 }
 
 .ikon-nav {
