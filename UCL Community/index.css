@@ -1,0 +1,50 @@
+
+.header {
+  overflow: hidden;
+  background-color: #00454E;
+  top:  0;
+  width: 100%;
+  height: 100%;
+}
+
+.header a {
+  float: left;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.header h4 {
+  float: left;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.ikon-nav {
+  overflow: hidden;
+  background-color: #00454E;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ikon-nav a {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  padding: 5px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.active {
+  background-color: #CAE4E3;
+}
