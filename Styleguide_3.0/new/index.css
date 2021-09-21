@@ -247,7 +247,24 @@ section::after {
     padding: 3px;
     background-color: #FBE355;
     color: #6A6024;
-    width: 50%
+    width: 50%;
+  }
+
+  .chat-box {
+    display: flex;
+    border: 3px solid #6A6024;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background: #ffffff;
+    color: #6A6024;
+    }
+
+  .chat-box-indhold {
+    margin: 10px;
+    padding: 10px;
+    color: #343434;
+    width: 50%;
   }
 
 .typografi {
