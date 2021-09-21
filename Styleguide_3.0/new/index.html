@@ -107,7 +107,6 @@
                 &lt;div class="klub-box"&gt; <br>
                 &lt;div class="klub-box-indhold"&gt; <br>
                 &lt;h3&gt;Titel til Klub&lt;/h3&gt; <br>
-                &lt;p&gt;Kort information om Klub&lt;/p&gt; <br>
                 &lt;/div&gt; <br> <br>
 
               <b>UCL boks HTML:</b> <br>
@@ -125,23 +124,24 @@
                 } <br> <br>
               <b>Klub boks CSS:</b> <br>
                 .klub-box { <br>
-                  border: 3px solid #00454e; <br>
-                  border-radius: 10px; <br>
+                  width: 100%; <br>
+                  height: 300px; <br>
                   margin: 10px; <br>
-                  padding: 10px; <br>
+                  padding: 20px; <br>
                   background-image: url("xxx.png"); <br>
                   background-repeat: no-repeat; <br>
                   background-size: cover; <br>
                   color: #00454E; <br>
                 } <br> <br>
                 .klub-box-indhold { <br>
-                  border: 3px solid #00454e; <br>
-                  border-radius: 10px; <br>
-                  margin: 3px; <br>
+                  margin: 0 auto; <br>
+                  margin-top: 25%; <br>
+                  margin-bottom: 25%; <br>
                   padding: 3px; <br>
-                  background-color: #CAE4E3; <br>
-                  color: #00454E; <br>
+                  background-color: #ffffff; <br>
+                  color: #343434; <br>
                   width: 50% <br>
+                  text-align: center; <br>
                 } <br> <br>
               <b>UCL boks CSS</b> <br>
                 .UCL-box { <br>
@@ -260,7 +260,7 @@
         <div id="navbar">
           <h2>Navigations Bar</h2>
           <div class="ikon-nav">
-            <a class="active" href="#"><img src="../IMG/chat.png" alt="chat ikon"></a>
+            <a href="#"><img src="../IMG/chat.png" alt="chat ikon"></a>
             <a href="#"><img src="../IMG/klub.png" alt="klubber ikon"></a>
             <a href="#"><img src="../IMG/home.png" alt="home ikon"></a>
             <a href="#"><img src="../IMG/min-klub.png" alt="mine klubber ikon"></a>
@@ -280,7 +280,7 @@
               <b>CSS</b> <br>
                 .ikon-nav { <br>
                   overflow: hidden; <br>
-                  background-color: #00454E; <br>
+                  background-color: #FFFFFF; <br>
                   bottom: 0; <br>
                   width: 50%; <br>
                   height: 100%px; <br>
@@ -293,12 +293,8 @@
                   text-align: center; <br>
                   padding: 12px 0; <br>
                   transition: all 0.3s ease; <br>
-                  color: white; <br>
+                  color: #343434;<br>
                   font-size: 36px; <br>
-                } <br> <br>
-
-                .active { <br>
-                  background-color: #CAE4E3; <br>
                 }
               </code>
             </div>
@@ -321,7 +317,7 @@
               <b>CSS</b> <br>
                 .header { <br>
                   overflow: hidden; <br>
-                  background-color: #00454E; <br>
+                  background-color: #FFFFFF; <br>
                   top:  0; <br>
                   width: 50%; <br>
                   height: 100%px; <br>
@@ -334,7 +330,7 @@
                   text-align: center; <br>
                   padding: 12px 0; <br>
                   transition: all 0.3s ease; <br>
-                  color: white; <br>
+                  color: #343434; <br>
                 } <br> <br>
 
                 .header h4 { <br>
@@ -343,8 +339,8 @@
                   height: 100%; <br>
                   text-align: center; <br>
                   transition: all 0.3s ease; <br>
-                  color: white; <br>
-                  font-size: 20px; <br>
+                  color: #343434; <br>
+                  font-size: 35px; <br>
                 } <br>
             </code>
           </div>

@@ -223,7 +223,7 @@ section::after {
   margin-bottom: 25%;
   padding: 3px;
   background-color: #ffffff;
-  color: #00454E;
+  color: #343434;
   width: 50%;
   text-align: center;
 }
@@ -342,8 +342,9 @@ section::after {
 }
 
 .ikon-nav {
+  border: 3px solid #343434;
   overflow: hidden;
-  background-color: #00454E;
+  background-color: #FFFFFF;
   bottom: 0;
   width: 50%;
   height: 100%;
@@ -356,17 +357,14 @@ section::after {
   text-align: center;
   padding: 12px 0;
   transition: all 0.3s ease;
-  color: white;
+  color: #343434;
   font-size: 36px;
-}
-
-.active {
-  background-color: #CAE4E3;
 }
 
 .header {
   overflow: hidden;
-  background-color: #00454E;
+  border: 3px solid #343434;
+  background-color: #FFFFFF;
   top:  0;
   width: 50%;
   height: 100%;
@@ -379,7 +377,7 @@ section::after {
   text-align: center;
   padding: 12px 0;
   transition: all 0.3s ease;
-  color: white;
+  color: #343434;
 }
 
 .header h4 {
@@ -388,8 +386,8 @@ section::after {
   height: 100%;
   text-align: center;
   transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
+  color: #343434;
+  font-size: 35px;
 }
 
 .kode {
