@@ -78,3 +78,15 @@ a {
   width: 30%;
   text-align: center;
 }
+
+.badning-box{
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding: 20px;
+  background-image: url("../IMG/Klubber/badning.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #00454E;
+}
