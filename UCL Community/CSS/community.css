@@ -190,3 +190,12 @@ a {
   border: 3px solid #6A6024;
   color: #6A6024;
 }
+
+.tilmeld-knap {
+  border: 3px solid #6A6024;
+  background-color: #FBE355;
+  color: #6A6024;
+  border-radius: 10px;
+  height: 30px;
+  width: 30%;
+}
