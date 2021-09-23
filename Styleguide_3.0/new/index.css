@@ -296,6 +296,20 @@ section::after {
     width: 60%;
   }
 
+.billed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.billede {
+  height: 200px;
+  width: 300px;
+}
+.billede1 {
+  height: 300px;
+  width: 200px;
+}
+
 .login-boks {
   border: 1px solid #707070;
   border-radius: 10px;
