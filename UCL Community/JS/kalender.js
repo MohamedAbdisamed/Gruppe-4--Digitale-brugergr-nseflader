@@ -16,4 +16,7 @@ const month= [
 
 ]
 document.querySelctor(".date h1").innerHTML
-=month [5]
+=month [date.geMonth()];
+
+document.querySelctor(".date p").innerHTML
+=date.toDateString();
