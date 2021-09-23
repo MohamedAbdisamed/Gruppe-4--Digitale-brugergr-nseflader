@@ -13,7 +13,7 @@ margin: 0 auto;
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #00454e;
+  background: #5E868C;
   text-align: center;
 }
 
@@ -73,6 +73,7 @@ margin: 0 auto;
   background: #FAE254;
   color: #00454E !important
 }
+
 
 /* media queries for mindre skærme */
 @media screen and (max-width:720px) {
