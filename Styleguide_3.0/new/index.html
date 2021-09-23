@@ -66,18 +66,17 @@
           <button class="button b1">Knap</button>
           <button class="button b2">Knap</button>
           <button class="button b3">Knap</button>
-          <button class="button b4">Knap</button>
           <br>
           <h4>Knap Kode</h4>
           <div class="kode">
             <code>
               <b>General knap HTML:</b> <br> &lt;button class="button b1"&gt; Knap &lt;/button&gt; <br>
-              b1 = Blå b2 = Gul b3 = Pink <br> <br>
-              <b>Blå knap CSS</b> <br> background-color: #CAE4E3;border: 3px solid #00454E; color: #00454E; <br>
+              b1 = Blå b2 = Gul b3 = Mørk <br> <br>
+              <b>Blå knap CSS</b> <br> {background-color: #00454E; border: 3px solid #00454E; color: #EAEAEA;} <br>
               Blå knap <br> <br>
-              <b>Gul knap CSS</b> <br> background-color: #FBE355;border: 3px solid #6A6024; color: #6A6024; <br>
+              <b>Gul knap CSS</b> <br> {background-color: #FBE355;border: 3px solid #6A6024; color: #FBE355;} <br>
               Gul knap <br> <br>
-              <b>Pink knap css</b> <br> background-color: #F1C9C0; border: 3px solid #9B3C7D; color: #9B3C7D; <br>
+              <b>Mørk knap css</b> <br> {background-color: #012D32; border: 3px solid #012D32; color: #EAEAEA;}<br>
               Pink knap
             </code>
           </div>
@@ -125,12 +124,6 @@
                 &lt;p&gt;Kort information om Mødet&lt;/p&gt; <br>
                 &lt;/div&gt; <br> <br>
 
-              <b>Boks CSS</b> <br>
-                .bokse { <br>
-                  display: grid; <br>
-                  grid-template-columns: auto auto auto ; <br>
-                  padding: 3px; <br>
-                } <br> <br>
               <b>Klub boks CSS:</b> <br>
                 .klub-box { <br>
                   width: 100%; <br>
@@ -147,45 +140,92 @@
                   margin-top: 25%; <br>
                   margin-bottom: 25%; <br>
                   padding: 3px; <br>
-                  background-color: #ffffff; <br>
+                  background-color: #EAEAEA; <br>
                   color: #343434; <br>
                   width: 50% <br>
                   text-align: center; <br>
                 } <br> <br>
+
               <b>UCL boks CSS</b> <br>
                 .UCL-box { <br>
-                  border: 3px solid #6A6024; <br>
-                  border-radius: 10px; <br>
                   margin: 10px; <br>
                   padding: 10px; <br>
+                  width: 100%; <br>
+                  height: 300px; <br>
                   background-image: url("xxx.png"); <br>
                   background-repeat: no-repeat; <br>
                   background-size: cover; <br>
+                  background-position: right;
                   color: #6A6024; <br>
                 } <br> <br>
+
                 .UCL-box-indhold { <br>
-                  border: 3px solid #6A6024; <br>
-                  border-radius: 10px; <br>
-                  margin: 3px; <br>
+                  margin: 0 auto;<br>
+                  margin-top: 20%; <br>
+                  margin-bottom: 20%; <br>
                   padding: 3px; <br>
-                  background-color: #FBE355; <br>
+                  background-color: #ffffff; <br>
+                  color: #343434; <br>
+                  width: 50%; <br>
+                  text-align: center; <br>
+                } <br> <br>
+
+                <b>Chat boks HTML</b> <br>
+                &lt; div class="chat-box" &gt; <br>
+                &lt; div class="chat-box-indhold" &gt; <br>
+                &lt; div class="chat-text" &gt; <br>
+                &lt; img src="../IMG/badning.jpg" alt="chat billede" &gt; <br>
+                &lt; h3 &gt; Chat titel &lt; /h3 &gt;<br>
+                &lt; p &gt; Chat undertitel &lt; /p &gt;<br>
+                &lt; /div &gt; <br>
+                &lt; /div &gt; <br>
+                &lt; /div &gt; <br> <br>
+
+                <b>Chat boks CSS</b> <br>
+                .chat-box { <br>
+                  display: flex; <br>
+                  height: 40%; <br>
+                  border-radius: 10px; <br>
+                  background: #ffffff; <br>
                   color: #6A6024; <br>
-                  width: 50% <br>
-                }
+                } <br> <br>
+
+                .chat-box-indhold { <br>
+                  color: #343434; <br>
+                  width: 100%; <br>
+                  height: 100%; <br>
+                } <br> <br>
+
+                .chat-text img { <br>
+                  float: left; <br>
+                  border-radius: 50%; <br>
+                  height: 80px; <br>
+                  width: 80px; <br>
+                  margin: 0px 40px 10px 10px; <br>
+                } <br> <br>
+
+                .chat-text h3 { <br>
+                  float: center; <br>
+                } <br> <br>
+
+                .chat-text p { <br>
+                  float: center; <br>
+                } <br> <br>
+
             </code>
           </div>
         </div>
         <div id="Typografi">
           <h2>Typografi</h2>
           <div class="typografi">
-            <div class="font-type"> Display</div>
-            <div class="font-1"> Font-family: 'Proxima Nova Alt Bold',sans-serif</div>
+            <div class="font-type">Display</div>
+            <div class="font-1"> font-family: "Segoe UI", Arial, sans-serif </div>
             <div class="font-size"> 30px </div>
-            <div class="font-type"> Headline</div>
-            <div class="font-2"> Font-family: 'Proxima Nova Alt Bold',sans-serif</div>
+            <div class="font-type">Headline</div>
+            <div class="font-2"> font-family: "Segoe UI", Arial, sans-serif</div>
             <div class="font-size"> 25px </div>
             <div class="font-type">Brødtekst</div>
-            <div class="font-3"> Font-family: 'Proxima Nova Alt Rg',sans-serif</div>
+            <div class="font-3"> font-family: "Segoe UI", Arial, sans-serif</div>
             <div class="font-size"> 12px </div>
           </div>
         </div>
@@ -197,15 +237,15 @@
           <h2>Forme</h2>
           <div class="form">
             <form id="login" action="index.html">
-              UCL Navn <br> <input class="login-boks" type="text" name="name"><br>
-              UCL Kode <br> <input class="login-boks" type="text" name="kode"><br><br>
+              <br> <input class="login-boks" type="text" name="name" value="Brugernavn"><br>
+              <br> <input class="login-boks" type="text" name="kode" value="Kode"><br><br>
               <input class="login-knap" type="button" onclick="myFunction()" value="Login">
             </form>
             <br>
             <form class="tilmeld" action="index.html" >
-              Navn <br> <input class="tilmeld-boks" type="text" name="name"><br>
-              Studie <br> <input class="tilmeld-boks" type="text" name="studie"><br>
-              Semester <br> <input class="tilmeld-boks" type="text" name="sem"><br><br>
+              <br> <input class="tilmeld-boks" type="text" name="name" value="Navn"><br>
+              <br> <input class="tilmeld-boks" type="text" name="studie" value="Studie"><br>
+              <br> <input class="tilmeld-boks" type="text" name="sem" value="Semester"><br><br>
               <input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld">
             </form>
             <br>
@@ -214,26 +254,27 @@
               <code>
                 <b>Login form HTML</b> <br>
                   &lt; form id="login" action="index.html" &gt; <br>
-                  UCL Navn &lt; br &gt; &lt; input class="login-boks" type="text" name="name" &gt; &lt; br &gt; <br>
-                  UCL Kode &lt; br &gt; &lt; input class="login-boks" type="text" name="kode" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; br &gt; &lt; input class="login-boks" type="text" name="name" value="Brugernavn" &gt; &lt; br &gt; <br>
+                  &lt; br &gt; &lt; input class="login-boks" type="text" name="kode" value="Kode" &gt; &lt; br &gt; &lt; br &gt; <br>
                   &lt; input class="login-knap" type="button" onclick="myFunction()" value="Login" &gt;
                   &lt; /form &gt; <br> <br>
 
                 <b>Tilmeld form HTML</b> <br>
                   &lt; form id="login" action="index.html" &gt; <br>
-                  Navn &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="name" &gt; &lt; br &gt; <br>
-                  Studie &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="studie" &gt; &lt; br &gt; <br>
-                  Semester &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="sem" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="name" value="Navn" &gt; &lt; br &gt; <br>
+                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="studie" value="Studie" &gt; &lt; br &gt; <br>
+                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="sem" value="Semester" &gt; &lt; br &gt; &lt; br &gt; <br>
                   &lt; input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld" &gt;
                   &lt; /form &gt; <br> <br>
 
                 <b>Login form CSS</b> <br>
                   .login-boks { <br>
-                    border: 3px solid #707070; <br>
+                    border: 1px solid #707070; <br>
                     border-radius: 10px; <br>
-                    height: 30px; <br>
+                    height: 40px; <br>
+                    width: 80%; <br>
                     background-color: #EAEAEA; <br>
-                    color: black; <br>
+                    color: #696969; <br>
                   } <br> <br>
 
                   .login-knap { <br>
@@ -241,14 +282,16 @@
                     color: #ffffff; <br>
                     border-radius: 10px; <br>
                     height: 30px; <br>
+                    width: 80%; <br>
                   }
-                <b>Tilmeld ofrm CSS</b> <br>
+                <b>Tilmeld form CSS</b> <br>
                   .tilmeld-boks { <br>
-                    border: 3px solid #00454E; <br>
+                    border: 1px solid #707070; <br>
                     border-radius: 10px; <br>
-                    height: 30px; <br>
-                    background-color: #CAE4E3; <br>
-                    color: #00454E; <br>
+                    height: 40px; <br>
+                    width: 80%; <br>
+                    background-color: #EAEAEA;<br>
+                    color: #696969; <br>
                   } <br> <br>
 
                   .tilmeld-knap { <br>
@@ -257,6 +300,7 @@
                     color: #6A6024; <br>
                     border-radius: 10px; <br>
                     height: 30px; <br>
+                    width: 30%; <br>
                   } <br> <br>
                 <b>JS til begge</b>
                   function myFunction() { <br>
@@ -269,11 +313,11 @@
         <div id="navbar">
           <h2>Navigations Bar</h2>
           <div class="ikon-nav">
-            <a href="#"><img src="../IMG/chat.png" alt="chat ikon"></a>
-            <a href="#"><img src="../IMG/klub.png" alt="klubber ikon"></a>
-            <a href="#"><img src="../IMG/home.png" alt="home ikon"></a>
-            <a href="#"><img src="../IMG/min-klub.png" alt="mine klubber ikon"></a>
-            <a href="#"><img src="../IMG/profil.png" alt="profil ikon"></a>
+            <a href="#"><img src="../IMG/chat0.png" alt="chat ikon"></a>
+            <a href="#"><img src="../IMG/community.png" alt="klubber ikon"></a>
+            <a href="#"><img src="../IMG/home0.png" alt="home ikon"></a>
+            <a href="#"><img src="../IMG/min-community.png" alt="mine klubber ikon"></a>
+            <a href="#"><img src="../IMG/profil0.png" alt="profil ikon"></a>
           </div>
           <h4>Bund Navigationsbar kode</h4>
           <div class="kode">
@@ -311,7 +355,7 @@
         <div id="Top-bar">
           <h2>Header</h2>
           <div class=" header">
-            <a href="#"><img src="../IMG/tilbage.png" alt="tilbage ikon"></a>
+            <a href="#"><img src="../IMG/tilbage0.png" alt="tilbage ikon"></a>
             <h4> xxx </h4>
             <a href="#"><img src="../IMG/instillinger.png" alt="instillinger ikon"></a>
           </div>

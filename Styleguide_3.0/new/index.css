@@ -3,7 +3,7 @@
 }
 * h
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 header {
@@ -186,7 +186,7 @@ section::after {
 
 .button {
   border-radius: 10px;
-  color: white;
+  color: #EAEAEA;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -195,10 +195,9 @@ section::after {
   margin: 4px 2px;
   cursor: pointer;
 }
-  .b1 {background-color: #CAE4E3;border: 3px solid #00454E; color: #00454E;}
-  .b2 {background-color: #FBE355;border: 3px solid #6A6024; color: #6A6024;}
-  .b3 {background-color: #F1C9C0; border: 3px solid #9B3C7D; color: #9B3C7D;}
-  .b4 {background-color: #00454E; border: 3px solid #00454E; color: #ffffff;}
+  .b1 {background-color: #00454E; border: 3px solid #00454E; color: #EAEAEA;}
+  .b2 {background-color: #FBE355;border: 3px solid #6A6024; color: #FBE355;}
+  .b3 {background-color: #012D32; border: 3px solid #012D32; color: #EAEAEA;}
 
 .bokse {
     display: grid;
@@ -222,38 +221,40 @@ section::after {
   margin-top: 25%;
   margin-bottom: 25%;
   padding: 3px;
-  background-color: #ffffff;
+  background-color: #EAEAEA;
   color: #343434;
   width: 50%;
   text-align: center;
 }
 
 .UCL-box {
-  border: 3px solid #6A6024;
-  border-radius: 10px;
+  border: 3px solid #343434;
   margin: 10px;
   padding: 10px;
+  width: 95%;
+  height: 300px;
   background-image: url("../IMG/logo2.png");
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: cover;
   background-position: right;
   color: #6A6024;
   }
 
   .UCL-box-indhold {
-    border: 3px solid #6A6024;
-    border-radius: 10px;
-    margin: 3px;
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
     padding: 3px;
-    background-color: #FBE355;
-    color: #6A6024;
+    background-color: #EAEAEA;
+    color: #343434;
     width: 50%;
+    text-align: center;
   }
 
   .chat-box {
     display: flex;
     height: 40%;
-    border: 3px solid #6A6024;
+    border: 3px solid #343434;
     border-radius: 10px;
     background: #ffffff;
     color: #6A6024;
@@ -270,7 +271,8 @@ section::after {
   border-radius: 50%;
   height: 80px;
   width: 80px;
-  margin: 0px 40px 10px 10px;}
+  margin: 0px 40px 10px 10px;
+}
 
 .chat-text h3 {
   float: center;
@@ -313,7 +315,7 @@ section::after {
     padding: 10px;
     font-size: 30px;
     text-align: center;
-    font-family: 'Proxima Nova Alt Bold',sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     width: 60%;
   }
 
@@ -324,7 +326,7 @@ section::after {
       padding: 10px;
       font-size: 30px;
       text-align: center;
-      font-family: 'Proxima Nova Alt Bold',sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       width: 60%;
     }
 
@@ -335,16 +337,17 @@ section::after {
     padding: 10px;
     font-size: 30px;
     text-align: center;
-    font-family: 'Proxima Nova Alt Rg',sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     width: 60%;
   }
 
 .login-boks {
-  border: 3px solid #707070;
+  border: 1px solid #707070;
   border-radius: 10px;
-  height: 30px;
+  height: 40px;
   background-color: #EAEAEA;
-  color: black;
+  color: #696969;
+  width: 80%;
 }
 
 .login-knap {
@@ -352,14 +355,16 @@ section::after {
   color: #ffffff;
   border-radius: 10px;
   height: 30px;
+  width: 80%;
 }
 
 .tilmeld-boks {
-  border: 3px solid #00454E;
+  border: 1px solid #707070;
   border-radius: 10px;
-  height: 30px;
-  background-color: #CAE4E3;
-  color: #00454E;
+  height: 40px;
+  background-color: #EAEAEA;
+  color: #696969;
+  width: 80%;
 }
 
 .tilmeld-knap {
@@ -368,6 +373,7 @@ section::after {
   color: #6A6024;
   border-radius: 10px;
   height: 30px;
+  width: 30%;
 }
 
 .ikon-nav {
