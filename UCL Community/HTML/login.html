@@ -13,10 +13,13 @@
       </div>
     </header>
     <section>
-      <form id="login" action="index.html">
+      <form autocomplete="off"id="login" action="index.html">
         <br>
-        <input class="form-boks" type="text" name="name" value="Brugernavn"><br> <br>
-        <input class="form-boks" type="text" name="kode" value="Kode"><br><br>
+        <div class="autocomplete">
+
+        <input id="myInput" type="text" name="name" placeholder="Brugernavn"><br> <br>
+        <input class="form-boks" type="text" name="kode" placeholder="Kode"><br><br>
+        </div>
         <input class="login-knap" type="button" onclick="myFunction()" value="Log ind">
         <br>
         <a href="#"> Glemt brugernavn / kode </a>
