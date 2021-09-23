@@ -1,4 +1,6 @@
+@media only screen and (max-width: 375px) {
 body {
+  margin: 0;
   background-color: #00454E;
   font-family: "Segoe UI", Arial, sans-serif;
 }
@@ -115,4 +117,5 @@ form {
   border-radius: 10px;
   height: 30px;
   width: 80%;
+}
 }

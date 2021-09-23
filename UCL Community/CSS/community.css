@@ -1,5 +1,8 @@
+@media only screen and (max-width: 375px) {
 body {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -7,7 +10,7 @@ a {
   color: #00454E;
 }
 .klub-box1 {
-  width: 100%;
+  max-width: 375px;
   height: 100%;
   margin-top: 20px;
   padding: 20px;
@@ -18,7 +21,7 @@ a {
 }
 
 .klub-box2 {
-  width: 100%;
+  max-width: 375px;
   height: 100%;
   margin-top: 20px;
   padding: 20px;
@@ -29,7 +32,7 @@ a {
 }
 
 .klub-box3 {
-  width: 100%;
+  max-width: 375px;
   height: 100%;
   margin-top: 20px;
   padding: 20px;
@@ -40,7 +43,7 @@ a {
 }
 
 .klub-box4 {
-  width: 100%;
+  max-width: 375px;
   height: 100%;
   margin-top: 20px;
   padding: 20px;
@@ -51,7 +54,7 @@ a {
 }
 
 .klub-box5 {
-  width: 100%;
+  max-width: 375px;
   height: 100%;
   margin-top: 20px;
   padding: 20px;
@@ -62,7 +65,7 @@ a {
 }
 
 .klub-box6 {
-  width: 100%;
+  max-width: 375px;
   height: 100%;
   margin-top: 20px;
   padding: 20px;
@@ -197,4 +200,5 @@ a {
   border-radius: 10px;
   height: 30px;
   width: 30%;
+}
 }
