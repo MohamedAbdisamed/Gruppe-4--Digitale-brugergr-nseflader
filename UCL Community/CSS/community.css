@@ -202,3 +202,209 @@ a {
   width: 30%;
 }
 }
+
+@media only screen and (min-width: 376px) {
+  body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #00454E;
+  }
+  .klub-box1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/fitness.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .klub-box2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/strik.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .klub-box3 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/gaming.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .klub-box4 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/film.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .klub-box5 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/badning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .klub-box6 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("../IMG/Rectangle 15.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .klub-box-indhold {
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #343434;
+    width: 30%;
+    text-align: center;
+  }
+
+  .badning-box{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/badning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .film-box{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/film.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .fitness-box{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/fitness.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .gamer-box{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/gaming.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .skak-box{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/#.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .strik-box{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 20px;
+    background-image: url("../IMG/Klubber/strik.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00454E;
+  }
+
+  .tema {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #00454E;
+  }
+
+  .beskriv-boks {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #00454E;
+  }
+
+  .button {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 32px;
+    background-color: #FBE355;
+    border: 3px solid #6A6024;
+    color: #6A6024;
+  }
+
+  .tilmeld-knap {
+    border: 3px solid #6A6024;
+    background-color: #FBE355;
+    color: #6A6024;
+    border-radius: 10px;
+    height: 30px;
+    width: 30%;
+  }
+
+}
