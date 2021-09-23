@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../CSS/forside.css">
+<script src="../JS/master.js" defer></script>
+
+</head>
+<body>
+
+
+<!-- billeder til slides. -->
+
+<div class="forsideslidecontainer">
+  <div class="slide1">
+    <img src="../IMG/forsidebilleder/forside.png" >
+  </div>
+
+  <div class="slide1">
+    <img src="../IMG/forsidebilleder/forside2.png">
+  </div>
+
+  <div class="slide1">
+    <img src="../IMG/forsidebilleder/forside3.png">
+  </div>
+
+
+  <a class="forrige" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="næste" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<!-- klikke funktion til slides. -->
+
+<script>
+
+var slideIndex = [1,1];
+var slideId = ["slide1",]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html> 
