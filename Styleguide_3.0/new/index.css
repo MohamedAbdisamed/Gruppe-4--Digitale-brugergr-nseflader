@@ -21,15 +21,14 @@ nav {
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: 20px;
   height: 100%;
   width: 30%;
 }
 
 nav ul {
   list-style-type: none;
-  padding: 10px;
-  margin-top: 30px;
+  padding: 5px;
+  margin-top: 10px;
 }
 
 li a {
@@ -41,7 +40,7 @@ li a {
 }
 
 li {
-  padding: 5%;
+  padding: 4%;
 }
 
 article {
@@ -165,7 +164,7 @@ section::after {
   height: 300px;
   margin: 10px;
   padding: 20px;
-  background-image: url("../IMG/Rectangle 15.png");
+  background-image: url("../IMG/Billeder/film3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #00454E;
