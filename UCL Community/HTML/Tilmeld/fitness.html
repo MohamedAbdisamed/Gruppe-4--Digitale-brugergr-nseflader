@@ -6,8 +6,9 @@
     <title>Fitness Tilmeld</title>
     <link rel="stylesheet" href="../../CSS/index.css">
     <link rel="stylesheet" href="../../CSS/community.css">
+    <script src="../../JS/master.js" defer></script>
   </head>
-  <body>
+  <body onload="autoFill(); return true;">
     <header>
       <div class=" header log">
         <a href="../Community/fitness.html"><img src="../../IMG/Ikoner/Icon ionic-ios-arrow-back.png" alt="tilbage ikon"></a>
@@ -15,9 +16,10 @@
       </div>
     </header>
     <form class="tilmeld" action="index.html" >
-      <br> <input class="form-boks" type="text" name="name" value="Navn"><br>
-      <br> <input class="form-boks" type="text" name="studie" value="Studie"><br>
-      <br> <input class="form-boks" type="text" name="sem" value="Semester"><br><br>
+      <br> Navn <br> <input class="form-boks" id="name" type="text" name="name" ><br>
+      <br> Studie <br> <input class="form-boks" id="studie" type="text" name="studie"><br>
+      <br> Semester <br> <input class="form-boks" id="sem" type="text" name="sem"><br><br>
+      <br> <input class="form-boks" id="kommentar" type="text" name="kommentar" placeholder="Kommentar"><br><br>
       <input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld">
     </form>
   </body>
