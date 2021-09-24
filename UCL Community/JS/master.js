@@ -96,8 +96,7 @@ function autocomplete(inp, arr) {
 }
 
 /*An array containing all the country names in the world:*/
-var navne = ["Mohammed Ali","Tobias Dybvad","Morgan Freeman","Jonna Madras","Kartsten Klause";
-];
+var navne = ["Mohammed Ali","Tobias Dybvad","Morgan Freeman","Jonna Madras","Kartsten Klause"];
 
 /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
 autocomplete(document.getElementById("myInput"), navne);
