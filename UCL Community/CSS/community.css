@@ -202,3 +202,64 @@ a {
   height: 30px;
   width: 30%;
 }
+
+tilmeld-knap2 {
+  background-color: #012D32;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 10%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+.tilmeld-knap2 .knap{
+  color: #EAEAEA;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.popup{
+  width: 90%;
+  margin-top: 30px;
+  margin: auto;
+  position: relative;
+  display: none;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.popup-indhold{
+  height: 550px;
+  width: 90%;
+  margin: auto;
+  background: #CAE4E3;
+  color: #00454E;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-indhold img{
+  width: 200px;
+}
+
+
+.popup .knap-til-start{
+  background: #00454E;
+  color: #EAEAEA;
+  width: max-content;
+  margin: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  }
+}
