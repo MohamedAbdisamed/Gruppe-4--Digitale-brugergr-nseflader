@@ -1,95 +1,109 @@
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: 'Segoe UI', sans-serif}
-.klubnavn {
- text-align: center;
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Quicksand", sans-serif;
 }
-.calenderbox {
- width: 700px;
-height: 300px;
-margin: 0 auto;
 
+html {
+ font-size: 62.5%;
 }
+
+.container {
+ width: 100%;
+ height: 100vh;
+ background-color: #12121f;
+ color: #eee;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.calendar {
+ width: 45rem;
+ height: 52rem;
+ background-color: #222227;
+ box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+}
+
 .month {
-  padding: 70px 25px;
-  width: 100%;
-  background: #5E868C;
-  text-align: center;
+ width: 100%;
+ height: 12rem;
+ background-color: #167e56;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 2rem;
+ text-align: center;
+ text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
-.month ul {
-  margin: 0;
-  padding: 0;
+.month i {
+ font-size: 2.5rem;
+ cursor: pointer;
 }
 
-.month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+.month h1 {
+ font-size: 3rem;
+ font-weight: 400;
+ text-transform: uppercase;
+ letter-spacing: 0.2rem;
+ margin-bottom: 1rem;
 }
 
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-.month .next {
-  float: right;
-  padding-top: 10px;
+.month p {
+ font-size: 1.6rem;
 }
 
 .weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color: #ddd;
+ width: 100%;
+ height: 5rem;
+ padding: 0 0.4rem;
+ display: flex;
+ align-items: center;
 }
 
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
+.weekdays div {
+ font-size: 1.5rem;
+ font-weight: 400;
+ letter-spacing: 0.1rem;
+ width: calc(44.2rem / 7);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ padding: 0.2rem;
 }
 
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
-  color: #777;
+.days div {
+ font-size: 1.4rem;
+ margin: 0.3rem;
+ width: calc(40.2rem / 7);
+ height: 5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+ transition: background-color 0.2s;
 }
 
-.days li .today {
-  padding: 5px;
-  background: #FAE254;
-  color: #00454E !important
+.days div:hover:not(.today) {
+ background-color: #262626;
+ border: 0.2rem solid #777;
+ cursor: pointer;
 }
 
-
-/* media queries for mindre skærme */
-@media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
-  .calenderbox {width: 90%;
-
-  }
+.prev-date,
+.next-date {
+ opacity: 0.5;
 }
 
-@media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
-  .calenderbox{width: 90%;}
-}
-
-@media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
-  .calenderbox{width: 90%;}
+.today {
+ background-color: #167e56;
 }
