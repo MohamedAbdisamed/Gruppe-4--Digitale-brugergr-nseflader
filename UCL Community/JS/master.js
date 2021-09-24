@@ -101,13 +101,10 @@ var navne = ["Mohammed Ali","Tobias Dybvad","Morgan Freeman","Jonna Madras","Kar
 /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
 autocomplete(document.getElementById("myInput"), navne);
 
-/* Popup
+/* Popup */
 document.getElementById("knap").addEventListener("click", function() {
   document.querySelector(".popup").style.display = "flex";
-<<<<<<< Updated upstream
 })
-*/
-
 
 
 
