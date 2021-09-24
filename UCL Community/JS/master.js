@@ -104,6 +104,7 @@ autocomplete(document.getElementById("myInput"), navne);
 /* Popup
 document.getElementById("knap").addEventListener("click", function() {
   document.querySelector(".popup").style.display = "flex";
+<<<<<<< Updated upstream
 })
 */
 
@@ -136,3 +137,6 @@ function autoFill() {
   document.getElementById('studie').value = "Multimediedesign";
   document.getElementById('sem').value = "2.semester";
 }
+=======
+})*/
+>>>>>>> Stashed changes
