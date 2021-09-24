@@ -135,6 +135,3 @@ function autoFill() {
   document.getElementById('studie').value = "Multimediedesign";
   document.getElementById('sem').value = "2.semester";
 }
-=======
-})*/
->>>>>>> Stashed changes
