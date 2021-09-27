@@ -203,7 +203,7 @@ a {
   width: 30%;
 }
 
-tilmeld-knap2 {
+.tilmeld-knap2 {
   background-color: #012D32;
   padding: 10px 15px;
   border-radius: 5px;
@@ -262,4 +262,3 @@ tilmeld-knap2 {
   border-radius: 10px;
   text-decoration: none;
   }
-}
