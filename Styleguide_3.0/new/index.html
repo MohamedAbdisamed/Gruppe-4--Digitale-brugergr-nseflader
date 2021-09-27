@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Styleguide</title>
-    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="kalender.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <header>
@@ -255,16 +255,22 @@
         <div id="Forme">
           <h2>Forme</h2>
           <div class="form">
-            <form id="login" action="index.html">
-              <br> <input class="login-boks" type="text" name="name" value="Brugernavn"><br>
-              <br> <input class="login-boks" type="text" name="kode" value="Kode"><br><br>
-              <input class="login-knap" type="button" onclick="myFunction()" value="Login">
+            <form autocomplete="off" id="login" action="index.html">
+              <br>
+              <div class="autocomplete">
+                <input class="form-boks" id="myInput" type="text" name="name" placeholder="Brugernavn"><br><br>
+                <input class="form-boks" type="text" name="kode" placeholder="Kode"><br><br>
+              </div>
+              <input class="login-knap" type="button" onclick="myFunction()" value="Log ind">
+              <br>
+              <a href="#"> Glemt brugernavn / kode </a>
             </form>
             <br>
             <form class="tilmeld" action="index.html" >
-              <br> <input class="tilmeld-boks" type="text" name="name" value="Navn"><br>
-              <br> <input class="tilmeld-boks" type="text" name="studie" value="Studie"><br>
-              <br> <input class="tilmeld-boks" type="text" name="sem" value="Semester"><br><br>
+              <br> Navn <br> <input class="form-boks" id="name" type="text" name="name" ><br>
+              <br> Studie <br> <input class="form-boks" id="studie" type="text" name="studie"><br>
+              <br> Semester <br> <input class="form-boks" id="sem" type="text" name="sem"><br><br>
+              <br> <input class="form-boks" id="kommentar" type="text" name="kommentar" placeholder="Kommentar"><br><br>
               <input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld">
             </form>
             <br>
@@ -272,19 +278,35 @@
             <div class="kode">
               <code>
                 <b>Login form HTML</b> <br>
-                  &lt; form id="login" action="index.html" &gt; <br>
-                  &lt; br &gt; &lt; input class="login-boks" type="text" name="name" value="Brugernavn" &gt; &lt; br &gt; <br>
-                  &lt; br &gt; &lt; input class="login-boks" type="text" name="kode" value="Kode" &gt; &lt; br &gt; &lt; br &gt; <br>
-                  &lt; input class="login-knap" type="button" onclick="myFunction()" value="Login" &gt;
+                  &lt; form autocomplete="off" id="login" action="index.html" &gt; <br>
+                  &lt; br &gt; <br>
+                  &lt; div class="autocomplete" &gt; <br>
+                  &lt; input id="myInput" type="text" name="name" placeholder="Brugernavn" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; input class="form-boks" type="text" name="kode" placeholder="Kode" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; /div &gt; <br>
+                  &lt; input class="login-knap" type="button" onclick="myFunction()" value="Log ind" &gt; &lt; br &gt; <br>
+                  &lt; a href="#" &gt; Glemt brugernavn / kode &lt; /a &gt; <br>
                   &lt; /form &gt; <br> <br>
 
                 <b>Tilmeld form HTML</b> <br>
-                  &lt; form id="login" action="index.html" &gt; <br>
-                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="name" value="Navn" &gt; &lt; br &gt; <br>
-                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="studie" value="Studie" &gt; &lt; br &gt; <br>
-                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="sem" value="Semester" &gt; &lt; br &gt; &lt; br &gt; <br>
-                  &lt; input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld" &gt;
+                  &lt; form class="tilmeld" action="index.html" &gt; <br>
+                  &lt; br &gt; Navn &lt; input class="form-boks" id="name" type="text" name="name" &gt; &lt; br &gt; <br>
+                  &lt; br &gt; Studie &lt; input class="form-boks" id="studie" type="text" name="studie" &gt; &lt; br &gt; <br>
+                  &lt; br &gt; Semester &lt; input class="form-boks" id="sem" type="text" name="sem" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; br &gt; &lt; input class="form-boks" id="kommentar" type="text" name="kommentar" placeholder="Kommentar" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld" &gt; <br>
                   &lt; /form &gt; <br> <br>
+
+                <b>Fælles CSS</b> <br>
+                  form { <br>
+                    display: inline-block; <br>
+                    text-align: center; <br>
+                    width: 100%; <br>
+                  } <br> <br>
+                  form a { <br>
+                    text-decoration: none; <br>
+                    color: #696969; <br>
+                  } <br> <br>
 
                 <b>Login form CSS</b> <br>
                   .login-boks { <br>
@@ -302,17 +324,9 @@
                     border-radius: 10px; <br>
                     height: 30px; <br>
                     width: 80%; <br>
-                  }
-                <b>Tilmeld form CSS</b> <br>
-                  .tilmeld-boks { <br>
-                    border: 1px solid #707070; <br>
-                    border-radius: 10px; <br>
-                    height: 40px; <br>
-                    width: 80%; <br>
-                    background-color: #EAEAEA;<br>
-                    color: #696969; <br>
                   } <br> <br>
 
+                <b>Tilmeld form CSS</b> <br>
                   .tilmeld-knap { <br>
                     border-color: 3px solid #6A6024; <br>
                     background-color: #FBE355; <br>
@@ -321,9 +335,80 @@
                     height: 30px; <br>
                     width: 30%; <br>
                   } <br> <br>
-                <b>JS til begge</b>
-                  function myFunction() { <br>
-                    document.getElementById("frm1").submit(); <br>
+
+                <b>Login JS</b> <br>
+                function autocomplete(inp, arr) { <br>
+                  var currentFocus; <br>
+                  inp.addEventListener("input", function(e) { <br>
+                      var a, b, i, val = this.value; <br>
+                      closeAllLists(); <br>
+                      if (!val) { return false;} <br>
+                      currentFocus = -1; <br>
+                      a = document.createElement("DIV"); <br>
+                      a.setAttribute("id", this.id + "autocomplete-list"); <br>
+                      a.setAttribute("class", "autocomplete-items"); <br>
+                      this.parentNode.appendChild(a); <br>
+                      for (i = 0; i < arr.length; i++) { <br>
+                        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) { br
+                          b = document.createElement("DIV"); <br>
+                          b.innerHTML = "&lt; strong &gt;" + arr[i].substr(0, val.length) + "&lt; /strong &gt;"; <br>
+                          b.innerHTML += arr[i].substr(val.length); <br>
+                          b.innerHTML += "&lt; input type='hidden' value='" + arr[i] + "'&gt;"; <br>
+                          b.addEventListener("click", function(e) { <br>
+                              inp.value = this.getElementsByTagName("input")[0].value; <br>
+                              closeAllLists(); <br>
+                          }); <br>
+                          a.appendChild(b); <br>
+                        } <br>
+                      } <br>
+                  }); <br> <br>
+                  inp.addEventListener("keydown", function(e) { <br>
+                      var x = document.getElementById(this.id + "autocomplete-list"); <br>
+                      if (x) x = x.getElementsByTagName("div"); <br>
+                      if (e.keyCode == 40) { <br>
+                        currentFocus++; <br>
+                        addActive(x); <br>
+                      } else if (e.keyCode == 38) { //up <br>
+                        currentFocus--; <br>
+                        addActive(x); <br>
+                      } else if (e.keyCode == 13) { <br>
+                        e.preventDefault(); <br>
+                        if (currentFocus > -1) { <br>
+                          if (x) x[currentFocus].click(); <br>
+                        } <br>
+                      } <br>
+                  }); <br> <br>
+                  function addActive(x) { <br>
+                    if (!x) return false; <br>
+                    removeActive(x); <br>
+                    if (currentFocus >= x.length) currentFocus = 0; <br>
+                    if (currentFocus < 0) currentFocus = (x.length - 1); <br>
+                    x[currentFocus].classList.add("autocomplete-active"); <br>
+                  } <br> <br>
+                  function removeActive(x) { <br>
+                    for (var i = 0; i < x.length; i++) { <br>
+                      x[i].classList.remove("autocomplete-active"); <br>
+                    }  <br>
+                  } <br> <br>
+                  function closeAllLists(elmnt) { <br>
+                    var x = document.getElementsByClassName("autocomplete-items"); <br>
+                    for (var i = 0; i < x.length; i++) { <br>
+                      if (elmnt != x[i] && elmnt != inp) { <br>
+                        x[i].parentNode.removeChild(x[i]); <br>
+                      } <br>
+                    } <br>
+                  } <br> <br>
+                  document.addEventListener("click", function (e) { <br>
+                      closeAllLists(e.target); <br>
+                  }); <br>
+                } <br> <br>
+                var navne = ["Mohammed Ali","Tobias Dybvad","Morgan Freeman","Jonna Madras","Kartsten Klause"]; <br> <br>
+                autocomplete(document.getElementById("myInput"), navne <br> <br>
+                <b>Tilmeld JS</b> <br>
+                  function autoFill() { <br>
+                    document.getElementById('name').value = "Generisk navn"; <br>
+                    document.getElementById('studie').value = "Multimediedesign"; <br>
+                    document.getElementById('sem').value = "2.semester"; <br>
                   } <br>
               </code>
             </div>

@@ -4,6 +4,7 @@
 * h
 body {
   font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
 }
 
 header {
@@ -34,13 +35,13 @@ nav ul {
 li a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 23px;
   color: #00454E;
   display: block;
 }
 
 li {
-  padding: 4%;
+  padding: 3%;
 }
 
 article {
@@ -309,7 +310,7 @@ section::after {
   width: 200px;
 }
 
-.login-boks {
+.form-boks {
   border: 1px solid #707070;
   border-radius: 10px;
   height: 40px;
@@ -323,15 +324,6 @@ section::after {
   color: #ffffff;
   border-radius: 10px;
   height: 30px;
-  width: 80%;
-}
-
-.tilmeld-boks {
-  border: 1px solid #707070;
-  border-radius: 10px;
-  height: 40px;
-  background-color: #EAEAEA;
-  color: #696969;
   width: 80%;
 }
 
