@@ -80,3 +80,7 @@ document.querySelector(".next").addEventListener("click", () => {
 });
 
 renderCalendar();
+
+document.getElementById("knap").addEventListener("click", function() {
+  document.querySelector(".popup").style.display = "flex";
+})

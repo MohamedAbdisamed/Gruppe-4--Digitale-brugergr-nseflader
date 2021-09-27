@@ -24,6 +24,7 @@
           <li><a href="#Forme">Forme</a></li>
           <li><a href="#navbar">Navigation</a></li>
           <li><a href="#kalender">Kalender</a></li>
+          <li><a href="#popup">Pop-up</a></li>
         </ul>
       </nav>
       <article>
@@ -716,9 +717,78 @@
                </code>
              </div>
         </div>
+        <div id="popup">
+          <h2>Pop-up</h2> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+          <div class="popup">
+            <div class="popup-indhold">
+              <h1> Tak for din tilmelding! </h1>
+              <p> Vi glæder os til rigtig meget til at se dig til næste klub møde!
+              <br>
+              <br>
+              -<b>HUSK!</b> du kan holde dig opdateret på vores chat funktion </p>
+              <img src="../IMG/Icon awesome-check-circle.png" alt="check">
+              <a href="popup.html" class="knap-til-start"> Gå til start</a>
+            </div>
+          </div>
+          <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+          <h4>Pop-up Kode</h4>
+          <div class="kode">
+            <code>
+              <b>HTML</b> <br>
+              &lt; div class="popup" &gt; <br>
+              &lt; div class="popup-indhold" &gt; <br>
+              &lt; h1 &gt; Tak for din tilmelding! &lt; /h1 &gt; <br>
+              &lt; p &gt; <br>
+              &lt; br &gt; &lt; br &gt; <br>
+              &lt; b &gt; HUSK! &lt; /b &gt; du kan holde dig opdateret på vores chat funktion &lt; /p &gt; <br>
+              &lt; img src="../IMG/Icon awesome-check-circle.png" alt="check" &gt; <br>
+              &lt; a href="popup.html" class="knap-til-start" &gt; Gå til start &lt; /a &gt; <br>
+              &lt; /div &gt; <br>
+              &lt; /div &gt; <br> <br>
+              <b>CSS</b> <br>
+                .popup{  <br>
+                  width: 90%; <br>
+                  margin-top: 30px; <br>
+                  margin: auto; <br>
+                  position: relative; <br>
+                  display: flex; <br>
+                  text-decoration: none; <br>
+                  justify-content: center; <br>
+                  align-items: center; <br>
+                } <br> <br>
+
+                .popup-indhold{ <br>
+                  height: 400px; <br>
+                  width: 90%; <br>
+                  margin: auto; <br>
+                  background: #CAE4E3; <br>
+                  color: #00454E; <br>
+                  padding: 20px; <br>
+                  border-radius: 10px; <br>
+                  position: absolute; <br>
+                  display: flex; <br>
+                  flex-direction: column; <br>
+                  align-items: center; <br>
+                } <br> <br>
+
+                .popup-indhold img{ <br>
+                  width: 200px; <br>
+                } <br> <br>
+
+                .popup .knap-til-start{ <br>
+                  background: #00454E; <br>
+                  color: #EAEAEA; <br>
+                  width: max-content; <br>
+                  margin: auto; <br>
+                  padding: 10px 15px; <br>
+                  border-radius: 10px; <br>
+                  text-decoration: none; <br>
+                } <br>
+            </code>
+          </div>
+        </div>
     </article>
     </section>
-
     <footer>
       <p>Team 4</p>
     </footer>
