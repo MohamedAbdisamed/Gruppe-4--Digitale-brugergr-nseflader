@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Styleguide</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="kalender.css">
   </head>
   <body>
     <header>
@@ -418,6 +419,217 @@
         </div>
         <div id="kalender">
           <h2>Kalender</h2>
+          <div class="container">
+               <div class="calendar">
+                 <div class="month">
+                   <i class="fas fa-angle-left prev"></i>
+                   <div class="date">
+                     <h1></h1>
+                     <p></p>
+                   </div>
+                   <i class="fas fa-angle-right next"></i>
+                 </div>
+                 <div class="weekdays">
+                   <div>Sun</div>
+                   <div>Mon</div>
+                   <div>Tue</div>
+                   <div>Wed</div>
+                   <div>Thu</div>
+                   <div>Fri</div>
+                   <div>Sat</div>
+                 </div>
+                 <div class="days"></div>
+               </div>
+             </div>
+             <h4>Kalender Kode</h4>
+             <div class="kode">
+               <code>
+                 <b>HTML</b> <br>
+                   &lt; div class="container" &gt; <br>
+                   &lt; div class="calendar" &gt;<br>
+                   &lt; div class="month" &gt; <br>
+                   &lt; i class="fas fa-angle-left prev" &gt; &lt; /i &gt; <br>
+                   &lt; div class="date" &gt; <br>
+                   &lt; h1 &gt; &lt; /h1 &gt; <br>
+                   &lt; p &gt; &lt; /p &gt; <br>
+                   &lt; /div &gt; <br>
+                   &lt; i class="fas fa-angle-right next" &gt; &lt; /i &gt; <br>
+                   &lt; /div &gt; <br>
+                   &lt; div class="weekdays" &gt; <br>
+                   &lt; div &gt; Sun &lt; /div &gt; <br>
+                   &lt; div &gt; Mon &lt; /div &gt; <br>
+                   &lt; div &gt; Tue &lt; /div &gt; <br>
+                   &lt; div &gt; Wed &lt; /div &gt; <br>
+                   &lt; div &gt; Thu &lt; /div &gt; <br>
+                   &lt; div &gt; Fri &lt; /div &gt; <br>
+                   &lt; div &gt; Sat &lt; /div &gt; <br>
+                   &lt; /div &gt; <br>
+                   &lt; div class="days" &gt; &lt; /div &gt; <br>
+                   &lt; /div &gt; <br>
+                   &lt; /div &gt; <br> <br>
+                 <b>CSS</b> <br>
+                   * { <br>
+                     margin: 0; <br>
+                     padding: 0; <br>
+                     box-sizing: border-box; <br>
+                     font-family: "Segoe UI", Arial, sans-serif; <br>
+                   } <br>
+                     html { <br>
+                     font-size: 62.5%; <br>
+                   } <br>
+                   .container { <br>
+                     width: 90%; <br>
+                     height: 100vh; <br>
+                     color: #eee; <br>
+                     display: flex; <br>
+                     justify-content: center; <br>
+                     align-items: center; <br>
+                   } <br>
+                   .calendar { <br>
+                     width: 45rem; <br>
+                     height: 52rem; <br>
+                     background-color: #343434; <br>
+                     box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4); <br>
+                   } <br>
+                   .month { <br>
+                     width: 100%; <br>
+                     height: 12rem; <br>
+                     background-color: #167e56; <br>
+                     display: flex; <br>
+                     justify-content: space-between; <br>
+                     align-items: center; <br>
+                     padding: 0 2rem; <br>
+                     text-align: center; <br>
+                     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); <br>
+                   } <br>
+                   .month i { <br>
+                     font-size: 2.5rem; <br>
+                     cursor: pointer; <br>
+                   } <br>
+                   .month h1 { <br>
+                     font-size: 3rem; <br>
+                     font-weight: 400; <br>
+                     text-transform: uppercase; <br>
+                     letter-spacing: 0.2rem; <br>
+                     margin-bottom: 1rem; <br>
+                   } <br>
+                   .month p { <br>
+                     font-size: 1.6rem; <br>
+                   } <br>
+                   .weekdays { <br>
+                     width: 100%; <br>
+                     height: 5rem; <br>
+                     padding: 0 0.4rem; <br>
+                     display: flex; <br>
+                     align-items: center; <br>
+                   } <br>
+                   .weekdays div { <br>
+                     font-size: 1.5rem; <br>
+                     font-weight: 400; <br>
+                     letter-spacing: 0.1rem; <br>
+                     width: calc(44.2rem / 7); <br>
+                     display: flex; <br>
+                     justify-content: center; <br>
+                     align-items: center; <br>
+                     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); <br>
+                   } <br>
+                   .days { <br>
+                     width: 100%; <br>
+                     display: flex; <br>
+                     flex-wrap: wrap; <br>
+                     padding: 0.2rem; <br>
+                   } <br>
+                   .days div { <br>
+                     font-size: 1.4rem; <br>
+                     margin: 0.3rem; <br>
+                     width: calc(40.2rem / 7); <br>
+                     height: 5rem; <br>
+                     display: flex; <br>
+                     justify-content: center; <br>
+                     align-items: center; <br>
+                     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); <br>
+                     transition: background-color 0.2s; <br>
+                   } <br>
+                   .days div:hover:not(.today) { <br>
+                     background-color: #262626; <br>
+                     border: 0.2rem solid #777; <br>
+                     cursor: pointer; <br>
+                   } <br>
+                   .prev-date, <br>
+                   .next-date { <br>
+                     opacity: 0.5; <br>
+                   } <br>
+                   .today { <br>
+                     background-color: #167e56; <br>
+                   } <br> <br>
+                 <b>JS</b> <br>
+                   const date = new Date(); <br> <br>
+                   const renderCalendar = () => { <br>
+                     date.setDate(1); <br> <br>
+                     const monthDays = document.querySelector(".days"); <br> <br>
+                     const lastDay = new Date( <br>
+                       date.getFullYear(), <br>
+                       date.getMonth() + 1, <br>
+                       0 <br>
+                     ).getDate(); <br> <br>
+                     const prevLastDay = new Date( <br>
+                       date.getFullYear(), <br>
+                       date.getMonth(), <br>
+                       0 <br>
+                     ).getDate(); <br> <br>
+                     const firstDayIndex = date.getDay(); <br> <br>
+                     const lastDayIndex = new Date( <br>
+                       date.getFullYear(), <br>
+                       date.getMonth() + 1, <br>
+                       0 <br>
+                     ).getDay(); <br> <br>
+                     const nextDays = 7 - lastDayIndex - 1; <br> <br>
+                     const months = [ <br>
+                       "January", <br>
+                       "February", <br>
+                       "March", <br>
+                       "April", <br>
+                       "May", <br>
+                       "June", <br>
+                       "July", <br>
+                       "August", <br>
+                       "September", <br>
+                       "October", <br>
+                       "November", <br>
+                       "December", <br>
+                     ]; <br> <br>
+                     document.querySelector(".date h1").innerHTML = months[date.getMonth()]; <br> <br>
+                     document.querySelector(".date p").innerHTML = new Date().toDateString(); <br> <br>
+                     let days = ""; <br> <br>
+                     for (let x = firstDayIndex; x > 0; x--) { <br>
+                       days += `&lt; div class="prev-date" &gt; ${prevLastDay - x + 1} &lt; /div &gt;`; <br>
+                     } <br> <br>
+                     for (let i = 1; i <= lastDay; i++) { <br>
+                       if ( <br>
+                         i === new Date().getDate() && <br>
+                         date.getMonth() === new Date().getMonth() <br>
+                       ) { <br>
+                         days += `&lt; div class="today" &gt; ${i} &lt; /div &gt;`; <br>
+                       } else { <br>
+                         days += `&lt; div &gt; ${i} &lt; /div &gt;`; <br>
+                       } <br>
+                     } <br> <br>
+                     for (let j = 1; j <= nextDays; j++) { <br>
+                       days += ` &lt; div class="next-date" &gt; ${j} &lt; /div &gt; `; <br>
+                       monthDays.innerHTML = days; <br>
+                     } <br>
+                   }; <br> <br>
+                   document.querySelector(".prev").addEventListener("click", () => { <br>
+                     date.setMonth(date.getMonth() - 1); <br>
+                     renderCalendar(); <br>
+                   }); <br> <br>
+                   document.querySelector(".next").addEventListener("click", () => { <br>
+                     date.setMonth(date.getMonth() + 1); <br>
+                     renderCalendar(); <br>
+                   }); <br> <br>
+                   renderCalendar(); <br>
+               </code>
+             </div>
         </div>
     </article>
     </section>
@@ -430,5 +642,6 @@
       document.getElementById("frm1").submit();
     }
     </script>
+    <script src="kalender.js"></script>
   </body>
 </html>
