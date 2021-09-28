@@ -24,7 +24,7 @@
     <img src="../IMG/forsidebilleder/forside3.png">
   </div>
 
-
+<button type="button" class="button" onclick="location.href='login.html'">login</button>
   <a class="forrige" onclick="plusSlides(-1, 0)">&#10094;</a>
   <a class="næste" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
@@ -45,14 +45,14 @@ function plusSlides(n, no) {
 function showSlides(n, no) {
   var i;
   var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
+  if (n > x.length) {slideIndex[no] = 1}
   if (n < 1) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex[no]-1].style.display = "block";  
+  x[slideIndex[no]-1].style.display = "block";
 }
 </script>
 
 </body>
-</html> 
+</html>
