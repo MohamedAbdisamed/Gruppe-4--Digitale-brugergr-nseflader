@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Styleguide</title>
+    <link rel="stylesheet" href="kalender.css">
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
@@ -23,6 +24,7 @@
           <li><a href="#Forme">Forme</a></li>
           <li><a href="#navbar">Navigation</a></li>
           <li><a href="#kalender">Kalender</a></li>
+          <li><a href="#popup">Pop-up</a></li>
         </ul>
       </nav>
       <article>
@@ -40,7 +42,14 @@
               <div class="color-2">Nordic <br> #012D32</div>
               <div class="color-3">Whisper <br> #EAEAEA</div>
               <div class="color-4">Night Rider <br> #343434</div>
+              <div class="color-5">Soft yellow. <br> #FBE355</div>
             </div>
+            <h3>Hvor & Hvorfor</h3>
+            <p>
+              Til dette projekt er der blevet gjort brug af farver fundet på UCL's egen webside. Der er dertil blevet brugt forksellige tint typer af diverse farver. <br> <br>
+              Farverne kan ses brugt på alle siderne i produktet. Den mørke blå til baggrund, hvide til tekst, gule til knapper. <br> <br>
+              Man kan på UCL's egen side også finde flere farver, men vi har valgt at lægge vægt på de mest hyppigt brugte farver i dette produkt.
+            </p> <br>
         </div>
         <div id="Ikoner">
           <h2>Ikoner</h2>
@@ -60,6 +69,12 @@
             <div class="ikon"><img src="../IMG/Icon ionic-ios-arrow-back.png" alt="tilbage icon"></div>
             <div class="ikon"><img src="../IMG/Icon ionic-ios-settings.png" alt="instillinger icon"></div>
         </div>
+        <h3>Hvor & Hvorfor</h3>
+        <p>
+          Til dette projekt er der blevet researchet ikon design på diverse kendte socialemedier, for at finde / lave ikoner som bygger på genkendelighed. <br> <br>
+          Ovenstående ikoner, kan ses brugt på tværs af siderne i blandt andet navigations baren, top headeren, samt på chat og klub sider. <br> <br>
+          Ikonerne er ikke i sig selv lavet af UCL, men de er designet med UCL's farver og farve identitet i tankerne.
+        </p> <br>
         </div>
         <div id="Knapper">
           <h2>Knapper</h2>
@@ -67,6 +82,12 @@
           <button class="button b2">Knap</button>
           <button class="button b3">Knap</button>
           <br>
+          <h3>Hvor & Hvorfor</h3>
+          <p>
+            Til dette projekt er der blevet lavet og brugt et sæt knapper, til brug ved diverse login form og tilmeldings forme i produktet. <br> <br>
+            Knapperne kan ses brugt på login siden, tilmeld siden samt klub siderne hvorpå man kan tilmelde sig den gældnende klub. <br> <br>
+            Knapperne er ikke lavet helt som dem man finder på UCL's egen side, men er designet med UCL's farver og farve identitet i tankern.
+          </p> <br>
           <h4>Knap Kode</h4>
           <div class="kode">
             <code>
@@ -107,6 +128,12 @@
               </div>
             </div>
           </div>
+          <h3>Hvor & Hvorfor</h3>
+          <p>
+            Til projektet er der blevet lavet noget research i form af muligheder for visuel repræsentation af eventuelle klubber. I denne forbindelse er der kigget på diverse sport / fitness apps, da de som oftest i deres hold opdelinger gør stærkt brug af det visuelle. <br> <br>
+            Ideen er at baggrunden i boksen repræsentere klubbens emne / tema, og at der foran i den hvide boks står navnet på den givne klub. <br> <br>
+            Selve ideen er som tidligere nævt kraftigt insipreret af sport /fitness apps, idet UCL ikke selv, på derew site, gør brug af den type visuel repræsentation.
+          </p> <br>
           <br>
           <h4>Boks Kode</h4>
           <div class="kode">
@@ -237,6 +264,12 @@
             <div class="font-3"> font-family: "Segoe UI", Arial, sans-serif</div>
             <div class="font-size"> 12px </div>
           </div>
+          <h3>Hvor & Hvorfor</h3>
+          <p>
+            Til brug i dette projekt er skrifttypen Segoe UI blevet valgt. Dette er fordi den ikke blot er let læslig men også simpel i dens desing. <br> <br>
+            Der er på alle sider i produket gjort brug af denne skrifttype, der er dog på nogle sider brugt en Bold version af den. <br> <br>
+            Selve skrifttypen er ikke taget fra UCL's egen side, dette er fordi vi i teamet ikke har kunne finde denne skrifttype og derved har valgt at gøre brug af en anden.
+          </p> <br>
         </div>
         <div id="Billeder">
           <h2>Billeder</h2>
@@ -250,40 +283,73 @@
             <img src="../IMG/Billeder/241459437_874181263303195_9217285890312833497_n.jpg" alt="Jonas" class="billede1">
             <img src="../IMG/Billeder/baggrund.til.forside.jpg" alt="forside" class="billede1">
             </div>
+            <h3>Hvor & Hvorfor</h3>
+            <p>
+              Til dette projekt er der blevet fundet nogle billeder der visuelt kunne repræsentere eventuelle klubber som kunne opstå på UCL, samt eksempler på noget fællelskab og et eventuelt profil billed.
+            </p> <br>
         </div>
         <div id="Forme">
           <h2>Forme</h2>
           <div class="form">
-            <form id="login" action="index.html">
-              <br> <input class="login-boks" type="text" name="name" value="Brugernavn"><br>
-              <br> <input class="login-boks" type="text" name="kode" value="Kode"><br><br>
-              <input class="login-knap" type="button" onclick="myFunction()" value="Login">
+            <form autocomplete="off" id="login" action="index.html">
+              <br>
+              <div class="autocomplete">
+                <input class="form-boks" id="myInput" type="text" name="name" placeholder="Brugernavn"><br><br>
+                <input class="form-boks" type="text" name="kode" placeholder="Kode"><br><br>
+              </div>
+              <input class="login-knap" type="button" onclick="myFunction()" value="Log ind">
+              <br>
+              <a href="#"> Glemt brugernavn / kode </a>
             </form>
             <br>
             <form class="tilmeld" action="index.html" >
-              <br> <input class="tilmeld-boks" type="text" name="name" value="Navn"><br>
-              <br> <input class="tilmeld-boks" type="text" name="studie" value="Studie"><br>
-              <br> <input class="tilmeld-boks" type="text" name="sem" value="Semester"><br><br>
+              <br> Navn <br> <input class="form-boks" id="name" type="text" name="name" ><br>
+              <br> Studie <br> <input class="form-boks" id="studie" type="text" name="studie"><br>
+              <br> Semester <br> <input class="form-boks" id="sem" type="text" name="sem"><br><br>
+              <br> <input class="form-boks" id="kommentar" type="text" name="kommentar" placeholder="Kommentar"><br><br>
               <input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld">
             </form>
             <br>
+            <h3>Hvor & Hvorfor</h3>
+            <p>
+              Til produket gøres der brug af to typer forme, en login form og en tilmeldings form. <br><br>
+              Login formen vises en gang efter forsiden, og tilmeldings formen vises på hver klubs individuelle tilmeldings side. <br><br>
+              Selve formene er ikke designet helt som dem man finder på UCL's egen site, men de er som mange af de andre elementer også designet med UCL's farver i tankerne. <br><br>
+              Derudover var det også planlagt at det endelige produkt ville gøre brug af UCL's ItsLearning login til login formen, samt at tilmeldings siden ville autoudfyldes med den studerendes information som taget fra ItsLearning.
+            </p> <br>
             <h4>Form Kode</h4>
             <div class="kode">
               <code>
                 <b>Login form HTML</b> <br>
-                  &lt; form id="login" action="index.html" &gt; <br>
-                  &lt; br &gt; &lt; input class="login-boks" type="text" name="name" value="Brugernavn" &gt; &lt; br &gt; <br>
-                  &lt; br &gt; &lt; input class="login-boks" type="text" name="kode" value="Kode" &gt; &lt; br &gt; &lt; br &gt; <br>
-                  &lt; input class="login-knap" type="button" onclick="myFunction()" value="Login" &gt;
+                  &lt; form autocomplete="off" id="login" action="index.html" &gt; <br>
+                  &lt; br &gt; <br>
+                  &lt; div class="autocomplete" &gt; <br>
+                  &lt; input id="myInput" type="text" name="name" placeholder="Brugernavn" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; input class="form-boks" type="text" name="kode" placeholder="Kode" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; /div &gt; <br>
+                  &lt; input class="login-knap" type="button" onclick="myFunction()" value="Log ind" &gt; &lt; br &gt; <br>
+                  &lt; a href="#" &gt; Glemt brugernavn / kode &lt; /a &gt; <br>
                   &lt; /form &gt; <br> <br>
 
                 <b>Tilmeld form HTML</b> <br>
-                  &lt; form id="login" action="index.html" &gt; <br>
-                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="name" value="Navn" &gt; &lt; br &gt; <br>
-                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="studie" value="Studie" &gt; &lt; br &gt; <br>
-                  &lt; br &gt; &lt; input class="tilmeld-boks" type="text" name="sem" value="Semester" &gt; &lt; br &gt; &lt; br &gt; <br>
-                  &lt; input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld" &gt;
+                  &lt; form class="tilmeld" action="index.html" &gt; <br>
+                  &lt; br &gt; Navn &lt; input class="form-boks" id="name" type="text" name="name" &gt; &lt; br &gt; <br>
+                  &lt; br &gt; Studie &lt; input class="form-boks" id="studie" type="text" name="studie" &gt; &lt; br &gt; <br>
+                  &lt; br &gt; Semester &lt; input class="form-boks" id="sem" type="text" name="sem" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; br &gt; &lt; input class="form-boks" id="kommentar" type="text" name="kommentar" placeholder="Kommentar" &gt; &lt; br &gt; &lt; br &gt; <br>
+                  &lt; input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld" &gt; <br>
                   &lt; /form &gt; <br> <br>
+
+                <b>Fælles CSS</b> <br>
+                  form { <br>
+                    display: inline-block; <br>
+                    text-align: center; <br>
+                    width: 100%; <br>
+                  } <br> <br>
+                  form a { <br>
+                    text-decoration: none; <br>
+                    color: #696969; <br>
+                  } <br> <br>
 
                 <b>Login form CSS</b> <br>
                   .login-boks { <br>
@@ -301,17 +367,9 @@
                     border-radius: 10px; <br>
                     height: 30px; <br>
                     width: 80%; <br>
-                  }
-                <b>Tilmeld form CSS</b> <br>
-                  .tilmeld-boks { <br>
-                    border: 1px solid #707070; <br>
-                    border-radius: 10px; <br>
-                    height: 40px; <br>
-                    width: 80%; <br>
-                    background-color: #EAEAEA;<br>
-                    color: #696969; <br>
                   } <br> <br>
 
+                <b>Tilmeld form CSS</b> <br>
                   .tilmeld-knap { <br>
                     border-color: 3px solid #6A6024; <br>
                     background-color: #FBE355; <br>
@@ -320,9 +378,80 @@
                     height: 30px; <br>
                     width: 30%; <br>
                   } <br> <br>
-                <b>JS til begge</b>
-                  function myFunction() { <br>
-                    document.getElementById("frm1").submit(); <br>
+
+                <b>Login JS</b> <br>
+                function autocomplete(inp, arr) { <br>
+                  var currentFocus; <br>
+                  inp.addEventListener("input", function(e) { <br>
+                      var a, b, i, val = this.value; <br>
+                      closeAllLists(); <br>
+                      if (!val) { return false;} <br>
+                      currentFocus = -1; <br>
+                      a = document.createElement("DIV"); <br>
+                      a.setAttribute("id", this.id + "autocomplete-list"); <br>
+                      a.setAttribute("class", "autocomplete-items"); <br>
+                      this.parentNode.appendChild(a); <br>
+                      for (i = 0; i < arr.length; i++) { <br>
+                        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) { br
+                          b = document.createElement("DIV"); <br>
+                          b.innerHTML = "&lt; strong &gt;" + arr[i].substr(0, val.length) + "&lt; /strong &gt;"; <br>
+                          b.innerHTML += arr[i].substr(val.length); <br>
+                          b.innerHTML += "&lt; input type='hidden' value='" + arr[i] + "'&gt;"; <br>
+                          b.addEventListener("click", function(e) { <br>
+                              inp.value = this.getElementsByTagName("input")[0].value; <br>
+                              closeAllLists(); <br>
+                          }); <br>
+                          a.appendChild(b); <br>
+                        } <br>
+                      } <br>
+                  }); <br> <br>
+                  inp.addEventListener("keydown", function(e) { <br>
+                      var x = document.getElementById(this.id + "autocomplete-list"); <br>
+                      if (x) x = x.getElementsByTagName("div"); <br>
+                      if (e.keyCode == 40) { <br>
+                        currentFocus++; <br>
+                        addActive(x); <br>
+                      } else if (e.keyCode == 38) { //up <br>
+                        currentFocus--; <br>
+                        addActive(x); <br>
+                      } else if (e.keyCode == 13) { <br>
+                        e.preventDefault(); <br>
+                        if (currentFocus > -1) { <br>
+                          if (x) x[currentFocus].click(); <br>
+                        } <br>
+                      } <br>
+                  }); <br> <br>
+                  function addActive(x) { <br>
+                    if (!x) return false; <br>
+                    removeActive(x); <br>
+                    if (currentFocus >= x.length) currentFocus = 0; <br>
+                    if (currentFocus < 0) currentFocus = (x.length - 1); <br>
+                    x[currentFocus].classList.add("autocomplete-active"); <br>
+                  } <br> <br>
+                  function removeActive(x) { <br>
+                    for (var i = 0; i < x.length; i++) { <br>
+                      x[i].classList.remove("autocomplete-active"); <br>
+                    }  <br>
+                  } <br> <br>
+                  function closeAllLists(elmnt) { <br>
+                    var x = document.getElementsByClassName("autocomplete-items"); <br>
+                    for (var i = 0; i < x.length; i++) { <br>
+                      if (elmnt != x[i] && elmnt != inp) { <br>
+                        x[i].parentNode.removeChild(x[i]); <br>
+                      } <br>
+                    } <br>
+                  } <br> <br>
+                  document.addEventListener("click", function (e) { <br>
+                      closeAllLists(e.target); <br>
+                  }); <br>
+                } <br> <br>
+                var navne = ["Mohammed Ali","Tobias Dybvad","Morgan Freeman","Jonna Madras","Kartsten Klause"]; <br> <br>
+                autocomplete(document.getElementById("myInput"), navne <br> <br>
+                <b>Tilmeld JS</b> <br>
+                  function autoFill() { <br>
+                    document.getElementById('name').value = "Generisk navn"; <br>
+                    document.getElementById('studie').value = "Multimediedesign"; <br>
+                    document.getElementById('sem').value = "2.semester"; <br>
                   } <br>
               </code>
             </div>
@@ -337,6 +466,12 @@
             <a href="#"><img src="../IMG/minegrupper kant.png" alt="mine klubber ikon"></a>
             <a href="#"><img src="../IMG/profil kant.png" alt="profil ikon"></a>
           </div>
+          <h3>Hvor & Hvorfor</h3>
+          <p>
+            Til dette projekt er der blevet researchet navigations bar design på diverse kendte socialemedier, for at finde / lave en navigations bar som bygger på genkendelighed. Her er der isæt blevet taget inspiration fra Instagrams opstilling i forhold til placeringen. <br> <br>
+            Overstående navigations bar kan ses på bunden af alle hovedsiderne, idet den udgør navigation for hele produktet.  <br><br>
+            Selve navigations baren er ikke opbygget helt som UCL's egen menu, men farver på både baren og ikonerne i baren, er baseret på UCL's egne farver og farve identitet.
+          </p> <br>
           <h4>Bund Navigationsbar kode</h4>
           <div class="kode">
             <code>
@@ -377,6 +512,12 @@
             <h4> xxx </h4>
             <a href="#"><img src="../IMG/Icon ionic-ios-settings.png" alt="instillinger ikon"></a>
           </div>
+          <h3>Hvor & Hvorfor</h3>
+          <p>
+            Meget lig navigations baren er top headerens design også blevet inspireret af de sociale medier. <br> <br>
+            Overstående top header kan ses i toppen af alle hovedsiderne, sam undersider, i det den indeholder tilbage og instillings funktionen for nogle af de givne sider. <br><br>
+            Selve tp headeren er ikke opbygget helt som UCL's egen menu, men farver på både headeren og ikonerne i headeren, er baseret på UCL's egne farver og farve identitet.
+          </p><br>
           <h4>Header Kode</h4>
           <div class="kode">
             <code>
@@ -418,10 +559,301 @@
         </div>
         <div id="kalender">
           <h2>Kalender</h2>
+          <div class="container">
+               <div class="calendar">
+                 <div class="month">
+                   <i class="fas fa-angle-left prev"></i>
+                   <div class="date">
+                     <h1></h1>
+                     <p></p>
+                   </div>
+                   <i class="fas fa-angle-right next"></i>
+                 </div>
+                 <div class="weekdays">
+                   <div>Sun</div>
+                   <div>Mon</div>
+                   <div>Tue</div>
+                   <div>Wed</div>
+                   <div>Thu</div>
+                   <div>Fri</div>
+                   <div>Sat</div>
+                 </div>
+                 <div class="days"></div>
+               </div>
+             </div>
+             <h3>Hvor & Hvorfor</h3>
+             <p>
+               Til projektet er der blevet lavet noget research for hvorfan man kunne visualisere planlægning af møder i klubberne. Til det er der blevet lavet en kalender. <br><br>
+               Kalenderen kan ses på siderne for klubber man er tilmeldt. Dette er fordi man kun skal kunne se møder for klubber man er med i. <br><br>
+               Der er ikke gjort brug af UCL's eget desing til kalender funktionen, idet teamet ikke fandt den passede ind i designet for produktet. Kalender designet gør dog brug af UCL's farver og farveidentidet.
+             </p> <br>
+             <h4>Kalender Kode</h4>
+             <div class="kode">
+               <code>
+                 <b>HTML</b> <br>
+                   &lt; div class="container" &gt; <br>
+                   &lt; div class="calendar" &gt;<br>
+                   &lt; div class="month" &gt; <br>
+                   &lt; i class="fas fa-angle-left prev" &gt; &lt; /i &gt; <br>
+                   &lt; div class="date" &gt; <br>
+                   &lt; h1 &gt; &lt; /h1 &gt; <br>
+                   &lt; p &gt; &lt; /p &gt; <br>
+                   &lt; /div &gt; <br>
+                   &lt; i class="fas fa-angle-right next" &gt; &lt; /i &gt; <br>
+                   &lt; /div &gt; <br>
+                   &lt; div class="weekdays" &gt; <br>
+                   &lt; div &gt; Sun &lt; /div &gt; <br>
+                   &lt; div &gt; Mon &lt; /div &gt; <br>
+                   &lt; div &gt; Tue &lt; /div &gt; <br>
+                   &lt; div &gt; Wed &lt; /div &gt; <br>
+                   &lt; div &gt; Thu &lt; /div &gt; <br>
+                   &lt; div &gt; Fri &lt; /div &gt; <br>
+                   &lt; div &gt; Sat &lt; /div &gt; <br>
+                   &lt; /div &gt; <br>
+                   &lt; div class="days" &gt; &lt; /div &gt; <br>
+                   &lt; /div &gt; <br>
+                   &lt; /div &gt; <br> <br>
+                 <b>CSS</b> <br>
+                   * { <br>
+                     margin: 0; <br>
+                     padding: 0; <br>
+                     box-sizing: border-box; <br>
+                     font-family: "Segoe UI", Arial, sans-serif; <br>
+                   } <br>
+                     html { <br>
+                     font-size: 62.5%; <br>
+                   } <br>
+                   .container { <br>
+                     width: 90%; <br>
+                     height: 100vh; <br>
+                     color: #eee; <br>
+                     display: flex; <br>
+                     justify-content: center; <br>
+                     align-items: center; <br>
+                   } <br>
+                   .calendar { <br>
+                     width: 45rem; <br>
+                     height: 52rem; <br>
+                     background-color: #343434; <br>
+                     box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4); <br>
+                   } <br>
+                   .month { <br>
+                     width: 100%; <br>
+                     height: 12rem; <br>
+                     background-color: #167e56; <br>
+                     display: flex; <br>
+                     justify-content: space-between; <br>
+                     align-items: center; <br>
+                     padding: 0 2rem; <br>
+                     text-align: center; <br>
+                     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); <br>
+                   } <br>
+                   .month i { <br>
+                     font-size: 2.5rem; <br>
+                     cursor: pointer; <br>
+                   } <br>
+                   .month h1 { <br>
+                     font-size: 3rem; <br>
+                     font-weight: 400; <br>
+                     text-transform: uppercase; <br>
+                     letter-spacing: 0.2rem; <br>
+                     margin-bottom: 1rem; <br>
+                   } <br>
+                   .month p { <br>
+                     font-size: 1.6rem; <br>
+                   } <br>
+                   .weekdays { <br>
+                     width: 100%; <br>
+                     height: 5rem; <br>
+                     padding: 0 0.4rem; <br>
+                     display: flex; <br>
+                     align-items: center; <br>
+                   } <br>
+                   .weekdays div { <br>
+                     font-size: 1.5rem; <br>
+                     font-weight: 400; <br>
+                     letter-spacing: 0.1rem; <br>
+                     width: calc(44.2rem / 7); <br>
+                     display: flex; <br>
+                     justify-content: center; <br>
+                     align-items: center; <br>
+                     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); <br>
+                   } <br>
+                   .days { <br>
+                     width: 100%; <br>
+                     display: flex; <br>
+                     flex-wrap: wrap; <br>
+                     padding: 0.2rem; <br>
+                   } <br>
+                   .days div { <br>
+                     font-size: 1.4rem; <br>
+                     margin: 0.3rem; <br>
+                     width: calc(40.2rem / 7); <br>
+                     height: 5rem; <br>
+                     display: flex; <br>
+                     justify-content: center; <br>
+                     align-items: center; <br>
+                     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); <br>
+                     transition: background-color 0.2s; <br>
+                   } <br>
+                   .days div:hover:not(.today) { <br>
+                     background-color: #262626; <br>
+                     border: 0.2rem solid #777; <br>
+                     cursor: pointer; <br>
+                   } <br>
+                   .prev-date, <br>
+                   .next-date { <br>
+                     opacity: 0.5; <br>
+                   } <br>
+                   .today { <br>
+                     background-color: #167e56; <br>
+                   } <br> <br>
+                 <b>JS</b> <br>
+                   const date = new Date(); <br> <br>
+                   const renderCalendar = () => { <br>
+                     date.setDate(1); <br> <br>
+                     const monthDays = document.querySelector(".days"); <br> <br>
+                     const lastDay = new Date( <br>
+                       date.getFullYear(), <br>
+                       date.getMonth() + 1, <br>
+                       0 <br>
+                     ).getDate(); <br> <br>
+                     const prevLastDay = new Date( <br>
+                       date.getFullYear(), <br>
+                       date.getMonth(), <br>
+                       0 <br>
+                     ).getDate(); <br> <br>
+                     const firstDayIndex = date.getDay(); <br> <br>
+                     const lastDayIndex = new Date( <br>
+                       date.getFullYear(), <br>
+                       date.getMonth() + 1, <br>
+                       0 <br>
+                     ).getDay(); <br> <br>
+                     const nextDays = 7 - lastDayIndex - 1; <br> <br>
+                     const months = [ <br>
+                       "January", <br>
+                       "February", <br>
+                       "March", <br>
+                       "April", <br>
+                       "May", <br>
+                       "June", <br>
+                       "July", <br>
+                       "August", <br>
+                       "September", <br>
+                       "October", <br>
+                       "November", <br>
+                       "December", <br>
+                     ]; <br> <br>
+                     document.querySelector(".date h1").innerHTML = months[date.getMonth()]; <br> <br>
+                     document.querySelector(".date p").innerHTML = new Date().toDateString(); <br> <br>
+                     let days = ""; <br> <br>
+                     for (let x = firstDayIndex; x > 0; x--) { <br>
+                       days += `&lt; div class="prev-date" &gt; ${prevLastDay - x + 1} &lt; /div &gt;`; <br>
+                     } <br> <br>
+                     for (let i = 1; i <= lastDay; i++) { <br>
+                       if ( <br>
+                         i === new Date().getDate() && <br>
+                         date.getMonth() === new Date().getMonth() <br>
+                       ) { <br>
+                         days += `&lt; div class="today" &gt; ${i} &lt; /div &gt;`; <br>
+                       } else { <br>
+                         days += `&lt; div &gt; ${i} &lt; /div &gt;`; <br>
+                       } <br>
+                     } <br> <br>
+                     for (let j = 1; j <= nextDays; j++) { <br>
+                       days += ` &lt; div class="next-date" &gt; ${j} &lt; /div &gt; `; <br>
+                       monthDays.innerHTML = days; <br>
+                     } <br>
+                   }; <br> <br>
+                   document.querySelector(".prev").addEventListener("click", () => { <br>
+                     date.setMonth(date.getMonth() - 1); <br>
+                     renderCalendar(); <br>
+                   }); <br> <br>
+                   document.querySelector(".next").addEventListener("click", () => { <br>
+                     date.setMonth(date.getMonth() + 1); <br>
+                     renderCalendar(); <br>
+                   }); <br> <br>
+                   renderCalendar(); <br>
+               </code>
+             </div>
+        </div>
+        <div id="popup">
+          <h2>Pop-up</h2> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+          <div class="popup">
+            <div class="popup-indhold">
+              <h1> Tak for din tilmelding! </h1>
+              <p> Vi glæder os til rigtig meget til at se dig til næste klub møde!
+              <br>
+              <br>
+              -<b>HUSK!</b> du kan holde dig opdateret på vores chat funktion </p>
+              <img src="../IMG/Icon awesome-check-circle.png" alt="check">
+              <a href="popup.html" class="knap-til-start"> Gå til start</a>
+            </div>
+          </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+          <h3>Hvor & Hvorfor</h3>
+          <p>
+            I produktet er der blevet gjort brug af et pop-up, i formbindelse med feedback efter insendt tilmelding til klubberne. <br><br>
+            Denne pop-up vises derfor ved hver tilmeldings side, efter udfyldelse og indsendelse. <br><br>
+            Der er til denne pop-up gjort brug af UCL's farver og farveidentidet, og selve opstillingen er blevet holdt simpel.
+          </p> <br>
+          <h4>Pop-up Kode</h4>
+          <div class="kode">
+            <code>
+              <b>HTML</b> <br>
+              &lt; div class="popup" &gt; <br>
+              &lt; div class="popup-indhold" &gt; <br>
+              &lt; h1 &gt; Tak for din tilmelding! &lt; /h1 &gt; <br>
+              &lt; p &gt; <br>
+              &lt; br &gt; &lt; br &gt; <br>
+              &lt; b &gt; HUSK! &lt; /b &gt; du kan holde dig opdateret på vores chat funktion &lt; /p &gt; <br>
+              &lt; img src="../IMG/Icon awesome-check-circle.png" alt="check" &gt; <br>
+              &lt; a href="popup.html" class="knap-til-start" &gt; Gå til start &lt; /a &gt; <br>
+              &lt; /div &gt; <br>
+              &lt; /div &gt; <br> <br>
+              <b>CSS</b> <br>
+                .popup{  <br>
+                  width: 90%; <br>
+                  margin-top: 30px; <br>
+                  margin: auto; <br>
+                  position: relative; <br>
+                  display: flex; <br>
+                  text-decoration: none; <br>
+                  justify-content: center; <br>
+                  align-items: center; <br>
+                } <br> <br>
+
+                .popup-indhold{ <br>
+                  height: 400px; <br>
+                  width: 90%; <br>
+                  margin: auto; <br>
+                  background: #CAE4E3; <br>
+                  color: #00454E; <br>
+                  padding: 20px; <br>
+                  border-radius: 10px; <br>
+                  position: absolute; <br>
+                  display: flex; <br>
+                  flex-direction: column; <br>
+                  align-items: center; <br>
+                } <br> <br>
+
+                .popup-indhold img{ <br>
+                  width: 200px; <br>
+                } <br> <br>
+
+                .popup .knap-til-start{ <br>
+                  background: #00454E; <br>
+                  color: #EAEAEA; <br>
+                  width: max-content; <br>
+                  margin: auto; <br>
+                  padding: 10px 15px; <br>
+                  border-radius: 10px; <br>
+                  text-decoration: none; <br>
+                } <br>
+            </code>
+          </div>
         </div>
     </article>
     </section>
-
     <footer>
       <p>Team 4</p>
     </footer>
@@ -430,5 +862,6 @@
       document.getElementById("frm1").submit();
     }
     </script>
+    <script src="kalender.js"></script>
   </body>
 </html>
