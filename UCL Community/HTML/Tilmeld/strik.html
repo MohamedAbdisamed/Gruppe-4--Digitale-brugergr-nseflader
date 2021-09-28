@@ -20,7 +20,28 @@
       <br> Studie <br> <input class="form-boks" id="studie" type="text" name="studie"><br>
       <br> Semester <br> <input class="form-boks" id="sem" type="text" name="sem"><br><br>
       <br> <input class="form-boks" id="kommentar" type="text" name="kommentar" placeholder="Kommentar"><br><br>
-      <input class="tilmeld-knap" type="button" onclick="myFunction()" value="Tilmeld">
     </form>
+
+    <div class="tilmeld-knap2">
+      <a href="#" class="knap" id="knap"> Tilmeld</a>
+    </div>
+
+    <div class="popup">
+      <div class="popup-indhold">
+        <h1> Tak for din tilmelding! </h1>
+        <p> Vi glæder os til rigtig meget til at se dig til næste klub møde!
+        <br>
+        <br>
+        -<b>HUSK!</b> du kan holde dig opdateret på vores chat funktion </p>
+        <img src="../../IMG/check.PNG" alt="check">
+        <a href="../community.html" class="knap-til-start"> Gå til start</a>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("knap").addEventListener("click", function() {
+        document.querySelector(".popup").style.display = "flex";
+      })
+    </script>
   </body>
 </html>
